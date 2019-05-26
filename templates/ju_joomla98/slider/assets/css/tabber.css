@@ -1,0 +1,291 @@
+#tc-tabber {
+	margin: 10px auto;
+	max-width: 1558px;
+	padding: 4px;
+	background: #d7d7d7;
+	border: 1px solid #d0d0d0; 	box-shadow: 0 0 5px #ccc;
+}
+#tc-tabber .tc-tabber-in {
+	width: 1558px;
+	max-width: 1558px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+#tc-tabber .tc-slides {
+	width: auto;
+	height: 100%;
+	margin-left: 340px;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+#tc-tabber .tc-slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#tc-tabber .tc-slide-in {
+	height: 100%;
+}
+#tc-tabber .tc-slide-in > a {
+	background: none;
+}
+#tc-tabber .tc-slide img.tc-image, 
+#tc-tabber .tc-slide a:hover img.tc-image {
+	border: 0 !important;
+	width: 100%;
+	height: auto;
+	}
+#tc-tabber .tc-slide-in .video-icon {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	background: url(images/video.png) center center no-repeat;
+}
+
+#tc-tabber .tc-slide-desc {
+	position: absolute;
+	width: 80%;
+	bottom: 5%;
+	left: 10%;
+		}
+#tc-tabber .tc-slide-desc-in {
+	position: relative;
+	height: 100%;
+}
+#tc-tabber .tc-slide-desc-bg {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background: #ffffff !important;
+    opacity: 0.7 !important;
+    filter: alpha(opacity=70) !important;
+	}
+#tc-tabber .tc-slide-desc-text {
+	position: relative;
+    color: #666 !important;
+    text-align: center !important;
+	padding: 10px;
+	text-align: left;	
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 300;
+    font-style: italic;
+}
+#tc-tabber .tc-slide-desc-text p {
+	display: block;
+	padding: 0;
+}
+#tc-tabber .tc-slide-desc-text a {
+	color: #333;
+}
+#tc-tabber h1 {
+    font-size: 28px !important;
+    color: #444444 !important;
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    line-height: 1.2em !important;
+    margin: 0 0 10px !important;
+    text-align: center;
+    font-style: normal;
+}
+#tc-tabber h1 a {
+	background: none;
+}
+#tc-tabber .tc-readmore-wrapper {
+	padding: 5px 0 0;
+	text-align: right;
+}
+#tc-tabber a.tc-readmore {
+	font-size: 1.1em;
+}
+#tc-tabber .tc-extra {
+	float: left;
+	margin: 0 0 5px 20px;
+}
+
+#tc-tabber .tc-navigation {
+    position: absolute;
+    top: 10.3092783505155%;
+    width: 1218px;
+    margin-left: 340px;
+    z-index: 10;
+    height: 100%;
+    z-index: auto !important;
+    top: 0 !important;
+}
+
+#tc-tabber .tc-navigation-in {
+	position: relative;
+	margin: 0 0px;
+    height: 100%;
+}
+#tc-tabber .tc-navigation .tc-prev {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+#tc-tabber .tc-navigation .tc-next {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+#tc-tabber .tc-navigation .tc-play, 
+#tc-tabber .tc-navigation .tc-pause {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+}
+
+#tc-tabber .tc-tabs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 340px;
+	height: 100%;
+	z-index: 5;
+}
+#tc-tabber .tc-tabs-in {
+	position: relative;
+	width: 340px;
+	margin: 0;
+}
+#tc-tabber .tc-tab-indicator {
+	position: absolute;
+	top: 0;
+			left: 340px;
+		background: url(images/tc-tab-indicator-right.png) left center no-repeat;
+		width: 30px;
+	height: 114px;
+	z-index: 15;
+}
+.tc-tabber .tc-tab-indicator {
+    width: 10px !important;
+}
+#tc-tabber .tc-tab {
+	display: block;
+	height: 114px;
+	overflow: hidden;
+	cursor: pointer;
+	background: #fff url(images/tc-tab.png) 0 100% repeat-x;
+	padding: 0 6px;
+			box-shadow: 1px 1px 2px #999;
+		margin: 0 2px 8px 10px;
+		
+}
+#tc-tabber span.tc-tab-in {
+	display: table;
+	height: 114px;
+	font-size: 13px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #505050;
+	text-shadow: 1px 1px 1px #ddd;
+}
+#tc-tabber span.tc-tab-in span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#tc-tabber .tc-tab table {
+	border-collapse: separate;
+	border: 0;
+	height: 114px;
+	overflow: hidden;
+}
+#tc-tabber .tc-tab table td {
+	border: 0;
+	vertical-align: middle;
+}
+#tc-tabber .tc-tab-active {
+	background: #2f2f2f;
+			margin-left: 0;
+		padding-left: 16px;
+	}
+#tc-tabber .tc-tab-active span.tc-tab-in,
+#tc-tabber .tc-tab-active span.tc-tab-in span {
+	color: #fff;
+	text-shadow: none;
+}
+#tc-tabber .tc-tab img {
+	border: 1px solid #ccc;
+	margin-right: 8px;
+	max-width: none;
+}
+#tc-tabber .tc-tab-active img {
+	border: 1px solid #fff;
+}
+
+#tc-tabber .tc-loader {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 20;
+	width: 24px;
+	height: 24px;
+	display: block;
+	background: url(images/ajax-loader.gif) left top no-repeat;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+}
+.tc-navigation img.prev-button, .tc-navigation img.tc-prev, .tc-navigation img.next-button, .tc-navigation img.tc-next {
+    height: 100% !important;
+    z-index: 12;
+}
+.tc-navigation img.prev-button, .tc-navigation img.tc-prev {
+    background-image: url("images/prev1.png");
+    width: 55px;
+    height: 94px;
+}
+.tc-navigation img.next-button, .tc-navigation img.tc-next {
+    background-image: url("images/next1.png");
+    width: 55px;
+    height: 94px;
+}
+.tc-navigation img.prev-button, .tc-navigation img.next-button, .tc-navigation img.play-button, .tc-navigation img.pause-button, .tc-navigation img.tc-prev, .tc-navigation img.tc-next, .tc-navigation img.tc-play, .tc-navigation img.tc-pause {
+    background-color: rgba(255,255,255,0.6);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.2s ease-in;
+}
+
+.tc-tabber .tc-tabs-left .tc-tab {
+    margin-left: 1px !important;
+    padding-left: 9px !important;
+}
+.tc-tabber .tc-tab {
+    margin: 1px !important;
+    padding: 0 10px !important;
+    border-top: 1px solid #f3f3f3 !important;
+}
+
+
+.tc-tabber span.tc-tab-in {
+    color: #444444 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 20px !important;
+    text-shadow: none !important;
+    text-transform: uppercase;
+}
+#tc-tabber {padding: 0px;}
+#tc-tabber .tc-tabber-in {height: 600px;}
+#tc-tabber .tc-tab-indicator, #tc-tabber .tc-tab, #tc-tabber span.tc-tab-in, #tc-tabber .tc-tab table { height: 100px;}
+#tc-tabber .tc-slides, #tc-tabber .tc-navigation{ margin-left: 200px;} 
+#tc-tabber .tc-tabs, #tc-tabber .tc-tabs-in{ width: 200px;} 
+#tc-tabber .tc-tab-indicator{ left: 200px; } 
