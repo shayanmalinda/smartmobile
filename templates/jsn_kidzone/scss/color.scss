@@ -1,0 +1,408 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+	.sunfw-content { 
+		.text-main-color{
+			color: $main-color;
+		}
+		.text-hover-main-color:hover {
+			color: $main-color;
+		}
+		.bg-main-color, .main-color-bg {
+			background: $main-color;
+		}
+	}
+	ul {
+		&.newsfeed,
+		&.archive-module,
+		&.relateditems,
+		&.categories-module,
+		&.category-module,
+		&.mostread,
+		&.latestnews,
+		&.latestusers {
+			li {
+				color: $main-color;
+				a:hover * {
+					color: $main-color;
+				}
+			}
+		}
+		&.categories-module ul {
+			li {
+				color: $main-color;
+			}
+		}
+	}
+	.item-page.edit {
+		#com-content-formTabs > li {
+			> a {
+				color: $main-color;
+			}
+			&.active {
+				::after {
+					background-color: $main-color;
+				}
+			}
+		}
+	}
+	.item-page.edit #com-content-formTabs > li.active::after {
+		background-color: $main-color;
+	}
+	.label-info[href]:hover, .label-info[href]:focus,
+	.content_rating + form input[name="submit_vote"] {
+		background: $main-color;
+	}
+	.pf-slider-nav[class*="nav-style-"]:hover {
+		&:before {
+			color: $main-color;
+		}
+	}
+	div.k2Pagination ul li.active a,
+	div.catItemCategory a,
+	ul.nav[class*='menu-treemenu'] li a:hover{
+		color: $main-color;
+	}
+	.sunfw-view-item #k2Container.itemView .itemBody {
+		.itemCategory a {
+			color: $main-color;
+		}
+		.itemIntroText:first-letter {
+			background: $main-color;
+		}
+	}
+	.sunfw-com-kunena {
+		.layout-item.sunfw-item-page-content {
+			div:last-child {
+				a {
+					color: $main-color;
+				}
+			}
+		}
+	}
+	#kunena.layout {
+		form#postform {
+			.well {
+				input[type=submit]:hover, button[type=reset]:hover {
+					background: $main-color;
+					border-color: $main-color;
+				}
+			}
+		}
+		.kfrontend {
+			div#kwho, div#kstats {
+				.well .btn-link {
+					color: $main-color;
+				}
+			}
+		}
+		#ktopicsform {
+			table {
+				span.glyphicon, a {
+					color: $main-color;
+				}
+			}
+		}
+		table {
+			tbody {
+				tr {
+					td { 
+						h3, .lastpostlink {
+							a {
+								color: $main-color;
+							}
+						}
+					}
+				}
+			}
+			td {
+				.progress {
+					.progress-bar {
+						background-color: $main-color;
+					}
+				}
+			}
+		}
+		.kwho-user {
+			color: $main-color;
+		}
+		ul.pagination {
+			li.active a {
+				color: $main-color;
+			}
+		}
+		nav.navbar {
+			div.navbar-inner {
+				ul.nav {
+					li {
+						a {
+							color: #333333;
+							font-weight: bold;
+						}
+						&.active a, a:hover {
+							color: $main-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.drop-cap::first-letter,
+	.highlight,
+	.color-img img {
+		background-color: $main-color;
+	}
+	.bg-main-color {
+		.jsn-es-background {
+			background-color: $main-color !important;
+		}
+	}
+	.search {
+		#searchForm {
+			button[name=Search] {
+				background-color: $main-color;
+			}
+		}
+	}
+	.cb_template a,
+	.k2ItemsBlock.show-1st-type ul li:not(.clearList) a.moduleItemCategory,
+	div.k2Pagination ul li a:hover,
+	.text-main-color a,
+	.breadcrumb > li.active span {
+		color: $main-color;
+	}
+	.btn.btn-outline {
+		border-color: $main-color;
+		color: $main-color;
+		&:hover {
+			background-color: $main-color;
+		}
+	}
+	.contact {
+		.page-header h2, .accordion-group .contact-links li a {
+			color: $main-color;
+		}
+	}
+	.label-info {
+		color: $main-color;
+		border-color: $main-color;
+	}
+	.search-results {
+		.result-title {
+			color: $main-color;
+			a {
+				color: $main-color;
+			}
+		}
+	}
+	ul	{
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a,
+					>span.nav-header {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	.sunfw-view-categories {
+		.cat-children,
+		.categories-list {
+			> div .item-title .badge.badge-info {
+				color: $main-color;
+				border-color: $main-color;
+			}
+			a {
+				.icon-plus:after, 
+				.icon-minus:after {
+					color: $main-color;
+				}
+			}
+		}	
+	}
+	.sunfw-view-registration {
+		form .k2AccountPageUpdate button[type="submit"] {
+			background-color: $main-color;
+			&:hover {
+				background-color: $sub-color;
+			}
+		}
+	}
+	.layout-item .readmore .btn {
+		background-color: $main-color;
+		&:hover{
+			background-color: $sub-color;
+		}
+	}
+	#finder-search {
+		button.btn,
+		button.btn + a[href="#advancedSearch"] {
+			background-color: $main-color;
+			&:hover {
+				background: $sub-color;
+			}
+		}
+	}
+	.contact-category ul [class*="span"].list-title a {
+		color: $main-color;
+	}
+	.sunfw-view-featured, 
+	.sunfw-view-category:not(.sunfw-com-kunena) {
+		table {
+			thead tr th {
+				color: $main-color !important;
+				a {
+					color: $main-color !important;
+				}
+			}
+			tbody {
+				tr {
+					td:first-child {
+						color: $main-color;
+						a{
+							color: $main-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.content-category {
+		.cat-children a .icon-plus:after,
+		.badge {
+			color: $main-color;
+		}
+		.badge {
+			border-color: $main-color;
+		}
+	}
+	ul.nav.menu li a:hover,
+	.btn.btn-plain:hover {
+		color: $main-color;
+	}
+	.sunfw-scrollup:hover {
+		background-color: desaturate(adjust-hue($main-color, 8.6815%), 88.6275%);
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav {
+		> li {
+			&:hover,
+			&.active {
+				> a,
+				> span.nav-header {
+					color: $main-color;
+				}
+			}
+		}
+	}
+	.cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+	.cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover {
+		border-color:  $main-color;
+	}
+	.cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel):not(.commentsButtonNewCancel):hover,
+	.cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+	.cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover,
+	.cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel):hover,
+	.cb_template .btn.btn-success,
+	.cb_template .cb_field .cbRadioButtons input[type="radio"]:checked + .btn,
+	.cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventsRow .gjGroupEventMenu button.gjButtonAttend {
+		background: $main-color;
+	}
+	.cbGroupJive .gjGroup .cbCanvasLayout + .cbCanvasLayoutMain div.navbar.navbar-light .navbar-nav .nav-link {
+		&.active, &:hover {
+		color: $main-color;
+		}
+	}
+	.cb_template.cbProfile .cbForums ul.cbTabsNav li a.active,
+	.k2ItemsBlock.show-1st-type ul li:not(.clearList),
+	.cb_template.cbEditProfile .nav-tabs .nav-link.active,
+	.cb_template .btn.btn-danger {
+		color: $main-color;
+	}
+	.cb_template .text-primary {
+		color: $main-color !important;
+	}
+	.activityContainerFooterRowRight .btn[class*="btn-"].streamToggle.streamToggleOpen,
+	.activityContainerFooterRowRight .btn[class*="btn-"].streamToggle:focus,
+	.cb_template .border-success {
+		border-color: $main-color !important;
+		background-color: $main-color !important;
+	}
+	.cb_template .cbGallery .galleryItemsNewEdit .card .card-footer button.galleryButtonDelete,
+	.cb_template .page-item.active .page-link {
+		background-color: $main-color;
+		border-color:  $main-color;
+	}
+	.cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton,
+	.cb_template .gjGroupDownloadIcon,
+	.cb_template .dropdown-item.active, .cb_template .dropdown-item:active,
+	.cb_template .btn-primary,
+	.cbGroupJive .gjGroup .gjGroupWallNewFooter button[type="submit"],
+	.commentContainerFooterRowButtons .btn[class*="btn-"][type="submit"],
+	.cb_template .cbActivity .activityContainerFooterRowButtons .btn[class*="btn-"][type="submit"] {
+		background-color: $main-color;
+	}
+}
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	&.nav[class*='menu-'] {
+		li {
+			a.get-it {
+				&.btn-primary {
+					&:hover {
+						background-color: $sub-color;
+					}
+				}
+			}
+			&.active a.get-it {
+				&.btn-primary {
+					background-color: $sub-color;
+				}
+			}
+		}
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav {
+		> li {
+			> a.get-it	{
+				&.btn-primary {
+					&:hover,
+					&:focus {
+						background-color: $sub-color;
+					}
+				}
+			}
+		}
+	}
+	.cb_template .btn.btn-success:hover {
+		background: $sub-color;
+	}
+	.cb_template .cbActivity .activityContainerFooterRowButtons .btn[class*="btn-"][type="submit"]:hover,
+	.cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton:hover,
+	.cb_template .btn-primary:hover {
+		background-color: $sub-color;
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li:focus > a.get-it.btn:not(.btn-outline), nav.navbar.sunfw-menu-head ul.navbar-nav > li:hover > a.get-it.btn.btn-primary, nav.navbar.sunfw-menu-head ul.navbar-nav > li.active > a.get-it.btn:not(.btn-outline) {
+		background-color: $sub-color !important;
+	}
+}

@@ -1,0 +1,63 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _pagination.scss
+ */
+div.pager,
+div.pagination {
+	display: flex;
+    margin: 40px 0 20px;
+	p.counter{
+		font-size: 12px;
+		display: none;
+	}
+	ul.pagination {
+	  margin: 0 -1px;
+	  padding: 0;
+	  line-height: 1;
+	  li {
+	    display: inline-block;
+			padding: 0;
+			&:first-child {
+				a {
+					margin-left: 0;
+					padding-left: 0;
+				}
+			}
+			&.active {
+				a {
+					color: #ff2834;
+				}
+			}
+	    a {
+	      line-height: 14px;
+	      border-radius: 3px;
+	      border: none;
+	      background-color: transparent;
+	      padding: 2px 14px;
+	      margin: 0;	  
+	      color: #555555;    
+	      &:hover {
+	    	background: transparent;
+				color: #ff2834;
+	      }
+	    }
+	    &.disabled a{
+	    	color: #888888;
+	    	&:hover{
+	    		border-color: rgba(233, 233, 233, 0.15);
+	    		background-color: transparent;
+	    	}
+	    }
+	  }
+	}
+}
+.pager {
+	padding: 0;
+	margin: 30px 0 37px 0;
+	li {
+		> a, > span {
+			border-radius: 0;
+		}
+	}
+}

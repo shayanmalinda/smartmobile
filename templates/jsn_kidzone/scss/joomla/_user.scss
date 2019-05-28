@@ -1,0 +1,267 @@
+// Login
+.login {
+	border-radius: 0;
+	display: flex;
+	justify-content: center;
+  > form {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    @include box-shadow(none);
+	padding: 0;
+	background: transparent;
+    button,
+	input[type="text"],
+	input[type="password"] {
+		min-width: 100%;
+    }
+	}
+	.control-group {
+		margin-bottom: 20px;
+		ul.nav-tabs {
+			padding-top: 0;
+			> li:first-child {
+				padding-top: 0;
+				a {
+					padding-top: 0;
+				}
+			}
+		}
+	}
+  .login-description {
+	img {
+		display: block;
+		margin: 20px 0;
+	}
+  }
+  .form-horizontal .control-label {
+	@include rtl-margin-right(10px);
+	padding-top: 0;
+  }
+  .control-group {
+    #remember {
+      height: auto;
+      width: auto;
+	  	vertical-align: middle;
+    }
+	label {
+		vertical-align: middle;
+	}
+  }
+  .nav.nav-stacked {
+    > li > a {
+      border: none;
+      background: transparent;
+      padding-bottom: 0;
+      &:hover {
+        border: none;
+        background: transparent;
+        @include box-shadow(none);
+      }
+    }
+  }
+}
+button[type=submit] + .btn {
+	border-width: 2px;
+	border-style: solid;
+	background-color: #cfcfcf;
+	font-weight: bold;
+	height: 50px;
+    padding: 14px 54px;
+}
+.profile-edit,
+.login,
+#user-registration,
+#member-registration {
+	.control-label {
+		@include rtl-text-align-right();
+		float: left;
+    width: 125px;
+    text-align: right;
+    clear: left;
+	}
+	.controls {
+		// clear: both;
+		@include rtl-margin-left(145px);
+		@media(min-width: 767px) {
+			width: 330px;
+		}
+		.btn {
+			font-family: Baloo;
+			font-weight: normal;
+		}
+		input, textarea, .chzn-container {
+		  &:-moz-placeholder {
+			color: #999;
+			opacity: 1;
+		  }
+		  &:-ms-input-placeholder {
+			color: #999; }
+		  &::-webkit-input-placeholder {
+			color: #999; }
+		  &::-ms-expand {
+			border: 0;
+			background-color: transparent;
+		  }
+		  .form-control[disabled], fieldset[disabled] .form-control {
+			cursor: not-allowed;
+		  }
+		}
+	}
+	.control-group {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.remind {
+	> form {
+		> fieldset {
+			> p {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.control-group {
+		max-width: 370px;
+		margin: 0 auto;
+	}
+}
+.reset{
+	input[type="text"]{
+		width: 100%;
+	}
+	.control-group {
+		max-width: 370px;
+	}
+}
+// User-registration
+.registration {
+	#member-registration {
+		fieldset + fieldset {
+			margin-bottom: 60px;
+		}
+		.control-group {
+			.control-label {
+				span.spacer {
+					margin-bottom: 20px;
+					display: block;
+				}
+			}
+		}
+	}
+}
+#user-registration,
+#member-registration {
+	margin-bottom: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	position: relative;
+  .control-group {
+		margin-bottom: 20px;
+    &:before {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  legend {
+		font-family: Teko;
+		font-weight: bold;
+		color: #222222;
+	}
+}
+.remind,
+.reset {
+	button {
+		min-width: 100%;
+    }
+	input[type="email"] {
+		width: calc(100%);
+    }
+}
+.profile {
+	legend {
+	    text-align: left;
+	}
+	.btn-toolbar {
+		margin-bottom: -40px;
+		@include rtl-padding-left(0);
+		background: #fff;
+	}
+	dt, dd {
+		line-height: 30px;
+	}
+	.dl-horizontal {
+		dd {
+			min-width: 200px;
+			@include rtl-text-align-left();
+		}
+	}
+	[id^="users-profile-"] {
+		clear: both;
+		text-align: center;
+		dl.dl-horizontal {
+			display: inline-block;
+		}
+	}
+}
+.profile-edit {
+	.control-group {
+		margin-bottom: 20px;
+		.controls {
+			button[type=button] {
+				border: none;
+				margin-top: 15px;
+				@media (max-width: 375px) {
+					margin-top: 10px;
+				}
+			}
+			.chzn-container {
+				min-width: 360px;
+			}
+		}
+	}
+    .well {
+		background: transparent;
+		box-shadow: none;
+		border-radius: none;
+		border: none;
+		padding: 0;
+	}
+}
+.profile-edit,
+.profile {
+	legend {
+		margin-bottom: 25px;
+		font-family: Baloo;
+		font-size: 22px;
+		color: #333333;
+	}
+}
+[id*="member-"] {
+	input[name*="jform[easydiscussprofile]"] {
+		max-width: 360px;
+	}
+	input[type="email"],input[type="password"],input[type="text"],textarea {
+		min-width: 360px;
+	}
+}
+.sunfw-login-nav {
+  .nav {
+    padding-top: 10px;
+    border: none;
+    li {
+      a {
+        padding: 5px 0;
+        border: none;
+        &:hover {
+          background: transparent;
+          border: none;
+        }
+      }
+    }
+  }
+}

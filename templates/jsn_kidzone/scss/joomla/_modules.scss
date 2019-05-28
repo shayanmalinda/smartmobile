@@ -1,0 +1,287 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+
+
+ //
+ // Breadcrumbs
+ // --------------------------------------------------
+/* .sunfw-breadcrumb {
+  padding: 40px 0;
+  .breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    > .active {
+      color: #FFF;
+    }
+  }
+  } */
+
+  //
+  // Menu Styles
+  // --------------------------------------------------
+
+  ul.nav > li > a i.fa {
+    padding-right: 5px;
+  }
+  .sunfw-direction-rtl ul.nav > li > a i.fa {
+    padding-right: 0;
+    padding-left: 5px;
+  }
+
+  //
+  /*===============Edit module front=============*/
+  .sunfw-com-config {
+    #modules-form{
+      textarea,
+      select:not(.time),
+      input[type="text"],
+      a.chzn-single,
+      .chzn-container{
+        min-width: 300px;
+
+      }
+      .btn-toolbar{
+        button.btn:not(.btn-primary){
+          border: 1px solid rgb(209, 214, 222);
+        }
+      }
+      #options{
+        .input-append{
+          .btn{
+            padding: 14.5px 15px;
+            border: 1px solid #D1D6DE;
+            margin-top: -1px;
+            display: inline-block;
+            position: relative;
+          }
+        }
+      }
+      .accordion-heading{
+        font-size: 19px;
+        padding: 15px 0px 20px;
+        border-bottom: 1px solid #eeeeee;
+      }
+      .chzn-container-single .chzn-single abbr{
+        top: 15px;
+        background: #fff;
+            font-size: 24px;
+        &:before{
+          font-family: FontAwesome;
+          content: '\f2d3';
+          width: 20px;
+          height: 33px;
+          display: block;
+          color: #333;
+          position: absolute;
+          top: -15px;
+          right: 10px;
+        }
+      }
+
+      .field-calendar{
+        button.btn{
+          padding: 5px 17px;
+        }
+      }
+      .chzn-search input{
+        width: 100%;
+        min-width: auto;
+      }
+      .form-horizontal .control-label{
+        text-align: left;
+      }
+      .radio{
+        &#pb3-editor-switcher {
+          label {
+            margin-right: 0;
+            padding-left: 40px;
+            background: #cfcfcf;
+          &.active {
+            background: #00cf69;
+          }
+          &:first-child {
+            border-radius: 25px 0 0 25px;
+          }
+          &:last-child {
+            border-radius: 0 25px 25px 0;
+          }
+          }
+        }
+        label{
+          @include rtl-padding-left(0px);
+          @include rtl-margin-right(40px);
+
+        }
+        input[type="radio"]{
+          // position: inherit;
+          // @include rtl-margin-left(0);
+          // @include rtl-margin-right(5px);
+          display: none;
+        }
+      } 
+      hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      fieldset.form-horizontal{
+        .control-group{
+          display: flex;
+          margin: 10px 0px;
+        }
+        .control-label{
+          min-width: 200px;
+          label{
+            font-weight: bold;
+          }
+        }
+      }
+      .field-calendar{
+        > .input-append {
+          position: relative;
+          button.btn{
+            position: absolute;
+            top: 1px;
+            @include rtl-right(1px);
+            padding: 15.5px 18px;
+            border-radius: 0;
+            border: none;
+            background: transparent;
+          }
+        }
+      }
+      @media(max-width: 767px){
+        button.btn-primary{
+          padding-left: 15px;
+          padding-right: 15px;
+          margin-top: 15px;
+        }
+        textarea,
+        select,
+        input[type="text"],
+        a.chzn-single{
+          min-width: auto;
+          width: 100%;
+        }
+        fieldset.form-horizontal{
+          .control-group{
+            flex-direction: column;
+          }
+        }
+      }
+      #custom{
+        .js-editor-tinymce{
+          .mce-edit-area{
+            border-width: 1px 1px 0 0!important;
+          }
+        }
+      }
+    }
+  }
+   // ---------------------Latestpost Module-----------------------------\
+   .jsn_latestposts{
+    &.latestnews{
+      padding: 0;
+      > li:last-child{
+        margin-bottom: 0;
+      }
+      > li {
+        list-style: none;
+        margin-bottom: 15px;
+		display: flex;
+		align-items: center;
+         &:after{
+            display: table;
+            content: '';
+            clear: both;
+          }
+        .item-image{
+          width: 80px;
+          height: 80px;
+          @include rtl-margin-right(15px);
+          margin-top: 5px;
+		flex: 0 0 40%;
+          > a {
+            padding: 0;
+            // width: 100%;
+            // height: 100%;
+            img{
+              width: 100%; 
+              height: 100%;
+              border-radius: 10px;
+              object-fit: cover;
+            }
+          }
+  
+  
+        }
+        .item-title{
+          > a {
+            font-family: Baloo;
+            line-height: 1.39;
+            padding: 0;
+			font-size: 18px;
+			color: #333;
+			margin-bottom: 5px;
+			display: block;
+          }
+		  p {
+			font-size: 11px;
+			color: #666;
+			margin-bottom: 5px;
+		  }
+		  p:not(.created_date) {
+			
+		  }
+        }
+      }
+    }
+  }
+  // ---------------------Position Sticky-----------------------------\
+
+  div[class*=sunfw-pos-stick-] {
+    position: fixed;
+    z-index: 8888;
+  }
+
+  .sunfw-pos-stick-lefttop {
+    @include rtl-left(0);
+  }
+
+  .sunfw-pos-stick-righttop {
+    @include rtl-right(0);
+  }
+
+  .sunfw-pos-stick-leftmiddle {
+    @include rtl-left(0);
+    top: 50%;
+    transform: translateY(-50%);
+
+  }
+
+  .sunfw-pos-stick-rightmiddle {
+    @include rtl-right(0);
+    top: 50%;
+    transform: translateY(-50%);
+
+  }
+
+  .sunfw-pos-stick-leftbottom {
+    @include rtl-left(0);
+    bottom: 0
+  }
+
+  .sunfw-pos-stick-rightbottom {
+    @include rtl-right(0);
+    bottom: 0;
+  }
+  .cc-theme-block.cc-type-info.cc-top{
+    z-index: 9999;
+  }
+
+  
+

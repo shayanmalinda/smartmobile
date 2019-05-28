@@ -1,0 +1,333 @@
+@media (max-width: 425px) {
+  .sunfw-view-registration form table tr,
+  .sunfw-view-profile form table tr {
+    display: block; } }
+.sunfw-view-registration form table .componentheading,
+.sunfw-view-profile form table .componentheading {
+  display: none; }
+.sunfw-view-registration form table td, .sunfw-view-registration form table th,
+.sunfw-view-profile form table td,
+.sunfw-view-profile form table th {
+  padding: 0 0 20px; }
+  @media (max-width: 425px) {
+    .sunfw-view-registration form table td, .sunfw-view-registration form table th,
+    .sunfw-view-profile form table td,
+    .sunfw-view-profile form table th {
+      display: block; }
+      .sunfw-view-registration form table td input, .sunfw-view-registration form table th input,
+      .sunfw-view-profile form table td input,
+      .sunfw-view-profile form table th input {
+        max-width: 95%; } }
+.sunfw-view-registration form table td:first-child,
+.sunfw-view-profile form table td:first-child {
+  text-align: right;
+  padding-right: 10px; }
+  @media (max-width: 425px) {
+    .sunfw-view-registration form table td:first-child,
+    .sunfw-view-profile form table td:first-child {
+      text-align: left; } }
+.sunfw-view-registration form table .radio input[type="radio"],
+.sunfw-view-profile form table .radio input[type="radio"] {
+  margin-right: 15px; }
+.sunfw-view-registration form .k2AccountPageNotice,
+.sunfw-view-profile form .k2AccountPageNotice {
+  margin-bottom: 20px; }
+.sunfw-view-registration form .k2AccountPageUpdate button[type="submit"],
+.sunfw-view-profile form .k2AccountPageUpdate button[type="submit"] {
+  border: none;
+  font-family: Baloo;
+  color: #FFFFFF;
+  padding: 15px 40px;
+  border-radius: 25px; }
+
+.k2AccountPage th.k2ProfileHeading {
+  background: #FFFFFF;
+  padding: 10px; }
+.k2AccountPage table.admintable tr:first-child + tr {
+  padding-top: 15px; }
+.k2AccountPage table.admintable td.key,
+.k2AccountPage table.admintable td.paramlist_key {
+  background: #FFFFFF;
+  border: none;
+  width: auto;
+  font-size: initial; }
+.k2AccountPage .icon-eye:before {
+  content: "\f06e";
+  font-family: fontAwesome; }
+
+.login-topbar ul span.icon-arrow-right::before {
+  display: none; }
+
+div.catItemHeader .catInformation {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #999;
+  font-family: Quicksand;
+  font-weight: 500;
+  margin: 10px -15px 18px; }
+  div.catItemHeader .catInformation .catItemDateCreated {
+    font-size: 13px;
+    margin: 0 15px; }
+    div.catItemHeader .catInformation .catItemDateCreated i {
+      margin-right: 5px; }
+  div.catItemHeader .catInformation a {
+    color: #999; }
+  div.catItemHeader .catInformation div.catItemCommentsLink {
+    border: none;
+    margin: 0; }
+  div.catItemHeader .catInformation div.catItemCommentsLink,
+  div.catItemHeader .catInformation span.catItemAuthor {
+    margin: 0 15px; }
+div.catItemHeader h3.catItemTitle {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal; }
+
+#k2Container {
+  padding: 0; }
+
+div.catItemView {
+  padding: 0 15px;
+  margin-bottom: 0; }
+
+div.k2Pagination {
+  margin: 0;
+  padding: 0;
+  text-align: right; }
+  div.k2Pagination ul {
+    margin: 6px -15px 0; }
+    div.k2Pagination ul li a {
+      padding: 0;
+      margin: 0 15px;
+      border: none;
+      color: #555555; }
+
+div.catItemBody {
+  padding: 0; }
+
+div.catItemCategory {
+  font-family: Baloo;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 20px 0 6px; }
+
+div.catItemIntroText {
+  padding: 0;
+  font-weight: 500;
+  color: #666; }
+
+#itemListLeading div.groupLeading {
+  margin-bottom: 0;
+  padding: 0; }
+
+div.catItemBody .catItemIntroText p:last-child {
+  margin-bottom: 0; }
+div.catItemBody div.catItemImageBlock {
+  padding: 0;
+  margin: -42px -42px 0; }
+
+#itemListPrimary {
+  margin: 0 -15px; }
+
+#itemListLeading div.catItemBody,
+#itemListPrimary div.catItemBody {
+  margin-bottom: 30px;
+  padding: 40px;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  overflow: hidden; }
+
+.k2ItemsBlock ul li {
+  overflow: hidden; }
+  .k2ItemsBlock ul li.flexItem {
+    display: flex; }
+    .k2ItemsBlock ul li.flexItem .moduleItemHead {
+      flex-basis: 50%; }
+  .k2ItemsBlock ul li.lastItem, .k2ItemsBlock ul li:last-child {
+    margin-bottom: 0; }
+  .k2ItemsBlock ul li a.moduleItemImage img {
+    width: 80px;
+    height: 80px;
+    float: left !important;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 15px 0 0 !important; }
+  .k2ItemsBlock ul li a.moduleItemTitle {
+    font-family: Baloo;
+    font-size: 18px;
+    line-height: 1.39; }
+  .k2ItemsBlock ul li p.createdDate span.moduleItemDateCreated {
+    font-size: 11px;
+    font-weight: 500;
+    color: #666666; }
+.k2ItemsBlock.show-1st-type ul li:not(.clearList) {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Baloo;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  padding: 20px;
+  overflow: visible; }
+  .k2ItemsBlock.show-1st-type ul li:not(.clearList) .moduleItemCategory {
+    margin: 0 5px; }
+  .k2ItemsBlock.show-1st-type ul li:not(.clearList) div.moduleItemIntrotext {
+    order: 0;
+    padding: 0;
+    margin: -22px -22px 20px;
+    width: calc(100% + 44px); }
+    .k2ItemsBlock.show-1st-type ul li:not(.clearList) div.moduleItemIntrotext a.moduleItemImage img {
+      float: none;
+      width: 100%;
+      margin: 0;
+      border-radius: 15px 15px 0 0;
+      min-height: 170px;
+      object-fit: cover; }
+  .k2ItemsBlock.show-1st-type ul li:not(.clearList) .moduleItemTitle {
+    flex: 0 0 100%;
+    order: 2;
+    font-family: Baloo;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    margin-top: 4px; }
+
+.k2CategoriesListBlock ul li {
+  margin-bottom: 10px !important; }
+  .k2CategoriesListBlock ul li a span.catCounter {
+    float: right; }
+  .k2CategoriesListBlock ul li a span {
+    color: #666666;
+    font-weight: 500; }
+    .k2CategoriesListBlock ul li a span.catCounter {
+      font-size: 11px; }
+  .k2CategoriesListBlock ul li:last-child {
+    margin-bottom: 0 !important; }
+
+.k2Search.k2SearchBlock {
+  position: relative; }
+  .k2Search.k2SearchBlock::after {
+    content: "\f002";
+    font-family: fontAwesome;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #999999; }
+  .k2Search.k2SearchBlock form input.inputbox {
+    width: 100%; }
+
+.sunfw-view-item .layout-item.sunfw-item-page-content {
+  overflow: initial !important; }
+.sunfw-view-item .k2RelateArticles .module-title .box-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 28px; }
+.sunfw-view-item .k2RelateArticles .k2ItemsBlock .item {
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  padding: 30px 25px; }
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemIntrotext {
+    margin: -32px -27px 20px; }
+    .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemIntrotext img {
+      width: 100%;
+      height: 175px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0; }
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemCategory {
+    text-transform: uppercase;
+    font-family: Baloo;
+    font-weight: normal;
+    font-size: 14px; }
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .title {
+    margin: 0;
+    font-size: 21px; }
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemAuthor,
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemDateCreated {
+    font-size: 12px;
+    color: #999999; }
+  .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemAuthor {
+    margin-right: 30px; }
+    .sunfw-view-item .k2RelateArticles .k2ItemsBlock .item .moduleItemAuthor a {
+      color: #999999; }
+.sunfw-view-item #k2Container.itemView .itemBody {
+  padding: 0; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemImageBlock {
+    padding: 0;
+    margin: -42px -42px 30px; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemImageBlock img {
+      border-radius: 15px 15px 0 0; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemCategory a {
+    font-family: Baloo;
+    text-transform: uppercase; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemHeader {
+    margin-bottom: 20px; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemHeader .itemTitle {
+      font-size: 32px;
+      padding: 0; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemHeader .itemAuthor {
+      display: inline;
+      margin-right: 30px; }
+      .sunfw-view-item #k2Container.itemView .itemBody .itemHeader .itemAuthor a {
+        color: #999999; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemHeader .itemAuthor,
+    .sunfw-view-item #k2Container.itemView .itemBody .itemHeader .itemDateCreated {
+      font-size: 13px;
+      color: #999999; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemToolbar {
+    display: none; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemToolbar a.itemPrintLink {
+      display: none; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemIntroText {
+    color: #666666;
+    line-height: 1.53;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0; }
+    .sunfw-view-item #k2Container.itemView .itemBody .itemIntroText:first-letter {
+      font-size: 36px;
+      font-weight: 500;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      float: left;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      margin-right: 15px;
+      border-radius: 15px;
+      padding: 1px 22px; }
+  .sunfw-view-item #k2Container.itemView .itemBody .itemFullText ul li {
+    font-weight: bold; }
+
+.sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userBlock {
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  background: #fbfbfb; }
+.sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userItemView {
+  border: 2px solid #ececec;
+  padding: 30px;
+  border-radius: 15px; }
+.sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userItemList .row > div:nth-child(2n+1) {
+  clear: both; }
+.sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userItemImageBlock {
+  float: none; }
+  .sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userItemImageBlock .userItemImage {
+    margin: 0;
+    margin: -32px -32px 30px; }
+    .sunfw-view-itemlist .layout-item.sunfw-item-page-content #k2Container.userView .userItemImageBlock .userItemImage img {
+      width: 100%;
+      border-radius: 15px 15px 0 0; }
+.sunfw-view-itemlist .k2RelateArticles {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

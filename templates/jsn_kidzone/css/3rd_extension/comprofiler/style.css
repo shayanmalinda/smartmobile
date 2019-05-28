@@ -1,0 +1,1760 @@
+.cb_template {
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333; }
+  .cb_template .table td, .cb_template .table th {
+    padding: 22px 20px;
+    border-top-width: 2px;
+    border-color: #ececec; }
+  .cb_template .img-fluid {
+    width: 100%; }
+
+.sunfw-com-comprofiler .sunfw-pos-left .module-style, .sunfw-com-comprofiler .sunfw-pos-right .module-style {
+  margin-bottom: 50px; }
+.sunfw-com-comprofiler .sunfw-flex-component .module-style:not([class*="module-style-"]) h3.box-title {
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  margin-top: 0; }
+
+.module-body > .row {
+  margin: 0; }
+.module-body .cbGroupJive .gjModuleGroupRows .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto .cbImgPict {
+  max-height: 80px;
+  border: none;
+  border-radius: 15px; }
+.module-body .cbGroupJive .gjModuleGroupRows .cbCanvasLayoutBody > .cbCanvasLayoutContent:first-child a {
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase; }
+.module-body .cbGroupJive .gjModuleGroupRows .cbCanvasLayoutBody > .cbCanvasLayoutContent:first-child .gjModuleGroupCategory a {
+  text-transform: none; }
+.module-body .cbGroupJive .gjModuleGroupRows .gjModuleGroup {
+  width: 100% !important;
+  margin: 0 0 20px !important; }
+  .module-body .cbGroupJive .gjModuleGroupRows .gjModuleGroup:last-child {
+    margin: 0 !important; }
+.module-body .cbOnlineUsers:not(.cb_template_default) {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: solid 2px #ececec;
+  background-color: #f8f8f8;
+  padding: 20px; }
+  .module-body .cbOnlineUsers:not(.cb_template_default) .img-thumbnail {
+    border: none;
+    border-radius: 100%;
+    width: 62px;
+    height: 62px;
+    padding: 0; }
+.module-body ul.cbOnlineCensus {
+  list-style: none;
+  padding: 20px 30px;
+  background: #f8f8f8;
+  border-radius: 15px;
+  border: 2px solid #ececec; }
+  .module-body ul.cbOnlineCensus li {
+    padding: 4px 0; }
+
+.cb_template .fa-chevron-left::before {
+  content: "\f104"; }
+.cb_template .fa-chevron-right:before {
+  content: "\f105"; }
+.cb_template .cb-page-header {
+  margin-bottom: 2rem !important; }
+.cb_template .js-editor-tinymce > .mce-panel {
+  background-color: #f8f8f8;
+  border-color: #ececec;
+  border-width: 2px !important; }
+.cb_template .js-editor-tinymce .mce-stack-layout-item {
+  border-color: #ececec; }
+.cb_template .js-editor-tinymce .toggle-editor a.btn {
+  font-weight: 500;
+  padding: 10px 0; }
+.cb_template form label {
+  color: #666; }
+.cb_template form .form-group:not(#cbimagefile_upload_avatar):not(#cbimagefile_upload_canvas) {
+  margin-bottom: 2rem;
+  align-items: center;
+  display: flex; }
+.cb_template .text-info {
+  color: #2cc1ea !important; }
+.cb_template.popover:not(.qtip-menu) {
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500;
+  color: #666; }
+  .cb_template.popover:not(.qtip-menu) .cbTooltipButtons {
+    marrgin-top: 18px; }
+    .cb_template.popover:not(.qtip-menu) .cbTooltipButtons .btn[class*="btn-"] {
+      font-family: Baloo;
+      font-size: 15px;
+      font-weight: normal;
+      padding: 12px 30px;
+      height: 50px;
+      border: none;
+      border-radius: 25px; }
+      .cb_template.popover:not(.qtip-menu) .cbTooltipButtons .btn[class*="btn-"].btn-secondary {
+        background: #cfcfcf; }
+  .cb_template.popover:not(.qtip-menu) .galleryModalDetails .card-body {
+    padding: 1rem !important; }
+  .cb_template.popover:not(.qtip-menu) .galleryModalDetails .galleryModalIntegrations {
+    padding: 1rem !important; }
+    .cb_template.popover:not(.qtip-menu) .galleryModalDetails .galleryModalIntegrations .cbThumbPict {
+      border-radius: 100%;
+      margin: 2px; }
+    .cb_template.popover:not(.qtip-menu) .galleryModalDetails .galleryModalIntegrations .commentContainerHeader textarea.streamInputMessageCollapse {
+      border-radius: 15px !important;
+      border-width: 2px !important; }
+  .cb_template.popover:not(.qtip-menu) .galleryModalDetails .commentContainerFooterRowButtons button.btn {
+    padding: 8px 20px;
+    height: 40px;
+    box-shadow: none !important;
+    box-shadow: none;
+    outline: none; }
+    .cb_template.popover:not(.qtip-menu) .galleryModalDetails .commentContainerFooterRowButtons button.btn.commentsButtonNewCancel {
+      border: 2px solid #ececec; }
+      .cb_template.popover:not(.qtip-menu) .galleryModalDetails .commentContainerFooterRowButtons button.btn.commentsButtonNewCancel:hover {
+        color: #fff; }
+  .cb_template.popover:not(.qtip-menu) .popover-body {
+    padding: 2rem; }
+    .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault {
+      padding: 2rem !important; }
+      .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div {
+        margin: 0 !important; }
+        .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div.pmMessagesHeader div:first-child {
+          flex: 0 0 90%;
+          justify-content: space-between;
+          display: flex; }
+          .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div.pmMessagesHeader div:first-child .pmButtonRead {
+            margin: 2px 0 0; }
+        .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div.pmMessagesHeader div:last-child {
+          flex: 0 0 10%; }
+        .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div:last-child div.pmMessagesRow {
+          margin-top: 10px; }
+          .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div:last-child div.pmMessagesRow .pmMessagesRowMsgIntro {
+            margin-top: 2px; }
+          .cb_template.popover:not(.qtip-menu) .popover-body .pmMessagesDefault > div:last-child div.pmMessagesRow img {
+            border-radius: 100%; }
+.cb_template .cb_field .cbRadioButtons label.btn, .cb_template .cb_field .cbCheckboxButtons label.btn {
+  height: 50px;
+  padding: 13px 30px;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500; }
+.cb_template .cb_field .cbRadioButtons input[type="checkbox"]:not(:checked) + .btn,
+.cb_template .cb_field .cbRadioButtons input[type="radio"]:not(:checked) + .btn, .cb_template .cb_field .cbCheckboxButtons input[type="checkbox"]:not(:checked) + .btn,
+.cb_template .cb_field .cbCheckboxButtons input[type="radio"]:not(:checked) + .btn {
+  color: #333;
+  background: transparent;
+  border-width: 2px 1px;
+  border-style: solid;
+  border-color: #ececec; }
+.cb_template .cb_field .cbRadioButtons input[type="radio"]:checked + .btn, .cb_template .cb_field .cbCheckboxButtons input[type="radio"]:checked + .btn {
+  border: none;
+  color: #fff; }
+.cb_template .cb_field .cbRadioButtons label:first-of-type.btn, .cb_template .cb_field .cbCheckboxButtons label:first-of-type.btn {
+  border-radius: 15px 0 0 15px; }
+.cb_template .cb_field .cbRadioButtons input[type="checkbox"]:not(:checked) + label:last-of-type.btn,
+.cb_template .cb_field .cbRadioButtons input[type="radio"]:not(:checked) + label:last-of-type.btn, .cb_template .cb_field .cbCheckboxButtons input[type="checkbox"]:not(:checked) + label:last-of-type.btn,
+.cb_template .cb_field .cbCheckboxButtons input[type="radio"]:not(:checked) + label:last-of-type.btn {
+  border-right: 2px solid #ececec; }
+.cb_template .cb_field .cbRadioButtons label:last-of-type.btn, .cb_template .cb_field .cbCheckboxButtons label:last-of-type.btn {
+  border-radius: 0 15px 15px 0; }
+.cb_template .cbProfileBook .pbWallRows .card-header {
+  padding: 0 0 1rem !important; }
+  .cb_template .cbProfileBook .pbWallRows .card-header .pbWallRowAvatar img {
+    border-radius: 100%; }
+.cb_template .cbProfileBook .card.pbWallNew.pbWallNewOpen {
+  padding: 0 !important; }
+.cb_template .cbProfileBook .pbBlogRows .pbBlogRow {
+  padding-bottom: 0 !important; }
+  .cb_template .cbProfileBook .pbBlogRows .pbBlogRow[class="pl-"] {
+    padding-left: 1rem !important; }
+  .cb_template .cbProfileBook .pbBlogRows .pbBlogRow[class="pr-"] {
+    padding-right: 1rem !important; }
+  .cb_template .cbProfileBook .pbBlogRows .pbBlogRow .itemIntroText {
+    font-size: 15px;
+    color: #666; }
+  .cb_template .cbProfileBook .pbBlogRows .pbBlogRow .pbBlogRowBlog {
+    margin-top: -15px; }
+    .cb_template .cbProfileBook .pbBlogRows .pbBlogRow .pbBlogRowBlog .cbMoreLessOpen {
+      font-size: 15px; }
+.cb_template .cbProfileBook .pbBlogRows .pbBlogDivider {
+  margin-bottom: 2rem !important; }
+.cb_template .cbProfileBook .btn.activityButtonMore,
+.cb_template .activityStream .btn.activityButtonMore {
+  background: transparent;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  height: 50px;
+  padding: 12px 20px; }
+  .cb_template .cbProfileBook .btn.activityButtonMore:active, .cb_template .cbProfileBook .btn.activityButtonMore:focus,
+  .cb_template .activityStream .btn.activityButtonMore:active,
+  .cb_template .activityStream .btn.activityButtonMore:focus {
+    box-shadow: none;
+    background: #cfcfcf; }
+.cb_template .cbProfileBook .p-2,
+.cb_template .activityStream .p-2 {
+  padding: 1rem !important; }
+.cb_template .cbProfileBook .card-header .activityContainerHeaderInner,
+.cb_template .activityStream .card-header .activityContainerHeaderInner {
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px !important; }
+.cb_template .cbProfileBook .activityContainerLogo img.img-thumbnail,
+.cb_template .activityStream .activityContainerLogo img.img-thumbnail {
+  width: 52px;
+  max-width: none;
+  border-radius: 100%;
+  border-color: #ececec; }
+.cb_template .cbProfileBook .activityContainerAttachmentsInner,
+.cb_template .cbProfileBook .activityContainerContentInner,
+.cb_template .cbProfileBook .activityContainerInsertInner,
+.cb_template .activityStream .activityContainerAttachmentsInner,
+.cb_template .activityStream .activityContainerContentInner,
+.cb_template .activityStream .activityContainerInsertInner {
+  margin: 0 0 15px !important;
+  color: #666; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .cbGallery .galleryMediaVideo:before,
+  .cb_template .cbProfileBook .activityContainerContentInner .cbGallery .galleryMediaVideo:before,
+  .cb_template .cbProfileBook .activityContainerInsertInner .cbGallery .galleryMediaVideo:before,
+  .cb_template .activityStream .activityContainerAttachmentsInner .cbGallery .galleryMediaVideo:before,
+  .cb_template .activityStream .activityContainerContentInner .cbGallery .galleryMediaVideo:before,
+  .cb_template .activityStream .activityContainerInsertInner .cbGallery .galleryMediaVideo:before {
+    padding-bottom: 0; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore,
+  .cb_template .cbProfileBook .activityContainerContentInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore,
+  .cb_template .cbProfileBook .activityContainerInsertInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore,
+  .cb_template .activityStream .activityContainerAttachmentsInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore,
+  .cb_template .activityStream .activityContainerContentInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore,
+  .cb_template .activityStream .activityContainerInsertInner .galleryActivity .galleryContainerPhotos .card-header.cbCanvasLayoutTop > a .galleryContainerMore {
+    top: 5px;
+    left: 5px;
+    right: 5px; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner table.gjGroupFileRows,
+  .cb_template .cbProfileBook .activityContainerContentInner table.gjGroupFileRows,
+  .cb_template .cbProfileBook .activityContainerInsertInner table.gjGroupFileRows,
+  .cb_template .activityStream .activityContainerAttachmentsInner table.gjGroupFileRows,
+  .cb_template .activityStream .activityContainerContentInner table.gjGroupFileRows,
+  .cb_template .activityStream .activityContainerInsertInner table.gjGroupFileRows {
+    border: 2px solid #ececec;
+    overflow: hidden; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .border.cbCanvasLayout,
+  .cb_template .cbProfileBook .activityContainerContentInner .border.cbCanvasLayout,
+  .cb_template .cbProfileBook .activityContainerInsertInner .border.cbCanvasLayout,
+  .cb_template .activityStream .activityContainerAttachmentsInner .border.cbCanvasLayout,
+  .cb_template .activityStream .activityContainerContentInner .border.cbCanvasLayout,
+  .cb_template .activityStream .activityContainerInsertInner .border.cbCanvasLayout {
+    overflow: visible !important; }
+    .cb_template .cbProfileBook .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutTop,
+    .cb_template .cbProfileBook .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutTop,
+    .cb_template .cbProfileBook .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutTop,
+    .cb_template .activityStream .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutTop,
+    .cb_template .activityStream .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutTop,
+    .cb_template .activityStream .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutTop {
+      margin: -2px -2px 0; }
+    .cb_template .cbProfileBook .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutTitle a,
+    .cb_template .cbProfileBook .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutTitle a,
+    .cb_template .cbProfileBook .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutTitle a,
+    .cb_template .activityStream .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutTitle a,
+    .cb_template .activityStream .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutTitle a,
+    .cb_template .activityStream .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutTitle a {
+      font-family: Quicksand;
+      font-size: 18px;
+      font-weight: bold; }
+    .cb_template .cbProfileBook .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutCounters,
+    .cb_template .cbProfileBook .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutCounters,
+    .cb_template .cbProfileBook .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutCounters,
+    .cb_template .activityStream .activityContainerAttachmentsInner .border.cbCanvasLayout .cbCanvasLayoutCounters,
+    .cb_template .activityStream .activityContainerContentInner .border.cbCanvasLayout .cbCanvasLayoutCounters,
+    .cb_template .activityStream .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutCounters {
+      font-family: Quicksand;
+      font-size: 13px;
+      font-weight: 500; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo,
+  .cb_template .cbProfileBook .activityContainerContentInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo,
+  .cb_template .cbProfileBook .activityContainerInsertInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo,
+  .cb_template .activityStream .activityContainerAttachmentsInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo,
+  .cb_template .activityStream .activityContainerContentInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo,
+  .cb_template .activityStream .activityContainerInsertInner .cbCanvasLayoutPhoto .cbFullPict.gjLogo {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 15px;
+    border: solid 2px #ececec; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .galleryItemContainer .card,
+  .cb_template .cbProfileBook .activityContainerContentInner .galleryItemContainer .card,
+  .cb_template .cbProfileBook .activityContainerInsertInner .galleryItemContainer .card,
+  .cb_template .activityStream .activityContainerAttachmentsInner .galleryItemContainer .card,
+  .cb_template .activityStream .activityContainerContentInner .galleryItemContainer .card,
+  .cb_template .activityStream .activityContainerInsertInner .galleryItemContainer .card {
+    padding: 0;
+    border: none; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .galleryItemContainer img, .cb_template .cbProfileBook .activityContainerAttachmentsInner .galleryItemContainer video,
+  .cb_template .cbProfileBook .activityContainerContentInner .galleryItemContainer img,
+  .cb_template .cbProfileBook .activityContainerContentInner .galleryItemContainer video,
+  .cb_template .cbProfileBook .activityContainerInsertInner .galleryItemContainer img,
+  .cb_template .cbProfileBook .activityContainerInsertInner .galleryItemContainer video,
+  .cb_template .activityStream .activityContainerAttachmentsInner .galleryItemContainer img,
+  .cb_template .activityStream .activityContainerAttachmentsInner .galleryItemContainer video,
+  .cb_template .activityStream .activityContainerContentInner .galleryItemContainer img,
+  .cb_template .activityStream .activityContainerContentInner .galleryItemContainer video,
+  .cb_template .activityStream .activityContainerInsertInner .galleryItemContainer img,
+  .cb_template .activityStream .activityContainerInsertInner .galleryItemContainer video {
+    max-width: calc(100% - 10px) !important;
+    max-height: calc(100% - 10px) !important; }
+  .cb_template .cbProfileBook .activityContainerAttachmentsInner .galleryItemContainer .galleryContainerMore,
+  .cb_template .cbProfileBook .activityContainerContentInner .galleryItemContainer .galleryContainerMore,
+  .cb_template .cbProfileBook .activityContainerInsertInner .galleryItemContainer .galleryContainerMore,
+  .cb_template .activityStream .activityContainerAttachmentsInner .galleryItemContainer .galleryContainerMore,
+  .cb_template .activityStream .activityContainerContentInner .galleryItemContainer .galleryContainerMore,
+  .cb_template .activityStream .activityContainerInsertInner .galleryItemContainer .galleryContainerMore {
+    max-width: calc(100% - 10px) !important;
+    max-height: calc(100% - 10px) !important; }
+.cb_template .cbProfileBook .cbCanvasLayout.cbCanvasLayoutHover .cbCanvasLayoutTop,
+.cb_template .activityStream .cbCanvasLayout.cbCanvasLayoutHover .cbCanvasLayoutTop {
+  background: transparent; }
+.cb_template .cbProfileBook .cbMoreLess.cbMoreLessOpened .cbMoreLessContent,
+.cb_template .activityStream .cbMoreLess.cbMoreLessOpened .cbMoreLessContent {
+  color: #666; }
+.cb_template .cbProfileBook .activityContainerFooter .activityContainerFooterInner,
+.cb_template .activityStream .activityContainerFooter .activityContainerFooterInner {
+  margin: 0.9rem 1.25rem !important; }
+.cb_template .cbProfileBook .activityContainerFooter .streamPanelFooterDivider,
+.cb_template .activityStream .activityContainerFooter .streamPanelFooterDivider {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important; }
+.cb_template .cbProfileBook .activityContainerFooter .streamMediaLeft img,
+.cb_template .activityStream .activityContainerFooter .streamMediaLeft img {
+  width: 50px;
+  border-radius: 100%; }
+.cb_template .cbProfileBook .card:not(.activityContainerNew),
+.cb_template .activityStream .card:not(.activityContainerNew) {
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  padding: 20px; }
+  .cb_template .cbProfileBook .card:not(.activityContainerNew) .streamItemScroll,
+  .cb_template .activityStream .card:not(.activityContainerNew) .streamItemScroll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: calc(100% - 30px); }
+    .cb_template .cbProfileBook .card:not(.activityContainerNew) .streamItemScroll > div[class*="streamItemScroll"] .fa::before,
+    .cb_template .activityStream .card:not(.activityContainerNew) .streamItemScroll > div[class*="streamItemScroll"] .fa::before {
+      font-size: 24px; }
+  .cb_template .cbProfileBook .card:not(.activityContainerNew) .streamItemActionResponse .streamItemAttachmentMedia .streamItemScroll,
+  .cb_template .activityStream .card:not(.activityContainerNew) .streamItemActionResponse .streamItemAttachmentMedia .streamItemScroll {
+    flex-direction: column;
+    width: 100%; }
+  .cb_template .cbProfileBook .card:not(.activityContainerNew) .activityContainerFooter,
+  .cb_template .activityStream .card:not(.activityContainerNew) .activityContainerFooter {
+    margin: 0 -20px -20px;
+    border-radius: 0 0 15px 15px; }
+.cb_template .cbProfileBook .card,
+.cb_template .activityStream .card {
+  margin-bottom: 2rem !important; }
+.cb_template .cbProfileBook .card .streamItemActionResponse .card-body > div:not(.hidden),
+.cb_template .activityStream .card .streamItemActionResponse .card-body > div:not(.hidden) {
+  margin: 0 -20px; }
+  .cb_template .cbProfileBook .card .streamItemActionResponse .card-body > div:not(.hidden):first-child,
+  .cb_template .activityStream .card .streamItemActionResponse .card-body > div:not(.hidden):first-child {
+    margin: -20px -20px 0; }
+.cb_template .cbProfileBook .card-footer,
+.cb_template .activityStream .card-footer {
+  background-color: #f8f8f8;
+  border-top: 2px solid #ececec;
+  border-radius: 0 0 15px 15px; }
+.cb_template .cbProfileBook textarea.form-control,
+.cb_template .activityStream textarea.form-control {
+  padding: 12px 20px;
+  border-radius: 15px !important;
+  font-family: Quicksand;
+  font-weight: 500; }
+.cb_template .cbProfileBook .activityContainerFooterRowLeft .btn[class*="btn-"],
+.cb_template .activityStream .activityContainerFooterRowLeft .btn[class*="btn-"] {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+  color: #666666; }
+.cb_template .cbProfileBook .commentContainerFooterRowButtons,
+.cb_template .cbProfileBook .activityContainerFooterRowButtons,
+.cb_template .activityStream .commentContainerFooterRowButtons,
+.cb_template .activityStream .activityContainerFooterRowButtons {
+  margin-left: auto; }
+  .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton,
+  .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton,
+  .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton,
+  .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton,
+  .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton,
+  .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton,
+  .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton,
+  .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton {
+    padding: 8px 20px;
+    height: 40px;
+    box-shadow: none !important;
+    box-shadow: none;
+    outline: none; }
+    .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel, .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel,
+    .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel,
+    .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel,
+    .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel,
+    .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel,
+    .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel,
+    .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel,
+    .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel,
+    .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel,
+    .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel,
+    .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel,
+    .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel,
+    .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel,
+    .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel,
+    .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel {
+      background: #fff;
+      border: 2px solid #d92351;
+      color: #d92351;
+      box-shadow: none;
+      outline: none; }
+      .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover, .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:focus, .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:hover, .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:focus,
+      .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:hover,
+      .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:focus,
+      .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+      .cb_template .cbProfileBook .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:focus,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:focus,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:hover,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:focus,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:hover,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:focus,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+      .cb_template .cbProfileBook .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:focus,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:focus,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:hover,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:focus,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:hover,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:focus,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+      .cb_template .activityStream .commentContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:focus,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:hover,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel:focus,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:hover,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.commentsButtonNewCancel:focus,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:hover,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.activityButtonNewCancel:focus,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:hover,
+      .cb_template .activityStream .activityContainerFooterRowButtons button.btn.commentsButton.commentsButtonNewCancel:focus {
+        color: #fff; }
+.cb_template .cbProfileBook .streamInputMessage + .streamInputMessageActions,
+.cb_template .activityStream .streamInputMessage + .streamInputMessageActions {
+  right: 15px; }
+.cb_template .cbProfileBook .dropdown-menu,
+.cb_template .activityStream .dropdown-menu {
+  border-radius: 15px;
+  border-color: #ececec;
+  border-width: 2px; }
+.cb_template .cbProfileBook .streamItem .streamItemMenu,
+.cb_template .activityStream .streamItem .streamItemMenu {
+  right: 10px;
+  top: 10px; }
+.cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventTitle,
+.cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventTitle {
+  font-size: 18px; }
+.cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventHeader,
+.cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventHeader {
+  border-width: 2px;
+  border-color: #ececec; }
+.cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventContainer .card,
+.cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card,
+.cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventContainer .card,
+.cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card {
+  padding: 0; }
+  .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventDetails,
+  .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventDetails,
+  .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventDetails,
+  .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventDetails {
+    font-size: 1rem; }
+  .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventNotice,
+  .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventNotice,
+  .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventNotice,
+  .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventNotice {
+    text-align: left !important;
+    margin-bottom: 5px; }
+    .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventNotice .cbDateTimeago,
+    .cb_template .cbProfileBook .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventNotice .cbDateTimeago,
+    .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventContainer .card .gjGroupEventNotice .cbDateTimeago,
+    .cb_template .activityStream .streamItems .gjGroupEventsRow .gjGroupEventCalendar .card .gjGroupEventNotice .cbDateTimeago {
+      font-size: 1rem; }
+.cb_template .cbProfileBook .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters,
+.cb_template .activityStream .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters {
+  margin: 8px -10px 0; }
+  .cb_template .cbProfileBook .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters > *,
+  .cb_template .activityStream .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters > * {
+    margin: 0 10px; }
+  .cb_template .cbProfileBook .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters a,
+  .cb_template .activityStream .streamItems .activityContainer .cbCanvasLayout .cbCanvasLayoutCounters a {
+    color: #666; }
+.cb_template span.cbDateTimeago {
+  font-size: 0.73rem; }
+.cb_template:not(.galleryModal):not(.gjGroupPhotoModal) .border {
+  border: 2px solid #ececec !important; }
+.cb_template .card {
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  overflow: visible !important; }
+.cb_template .cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop {
+  margin: -2px;
+  min-height: 120px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden; }
+  .cb_template .cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop a div {
+    border-radius: 15px 15px 0 0; }
+  .cb_template .cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbImgPict.gjLogoCustom {
+    max-height: 80px;
+    border-radius: 15px;
+    padding: 0;
+    border: none; }
+.cb_template .cbCanvasLayout .cbCanvasLayoutBottom .cbCanvasLayoutPhoto {
+  left: 20px;
+  bottom: 20px; }
+.cb_template.cbGalleryModuleGallery .card {
+  border: none;
+  margin: 0 -10px; }
+  .cb_template.cbGalleryModuleGallery .card > .card-header {
+    background: transparent; }
+  .cb_template.cbGalleryModuleGallery .card .card-header + .cbCanvasLayoutFooter {
+    margin: 0 5px;
+    width: calc(100% - 10px);
+    border: 1px solid #ececec;
+    border-radius: 0 0 15px 15px !important;
+    text-align: center; }
+  .cb_template.cbGalleryModuleGallery .card img.galleryImage, .cb_template.cbGalleryModuleGallery .card video.galleryVideoPlayer {
+    max-height: calc(100% - 10px) !important;
+    max-width: calc(100% - 10px) !important;
+    border-radius: 15px;
+    object-fit: cover; }
+.cb_template .cbGallery .galleryItemsNew .galleryItemsNewTitle + .galleryItemsNewUpload {
+  margin-bottom: 2rem !important; }
+.cb_template .cbGallery .galleryItemsContainer .galleryItemsRows {
+  margin: 0 -5px; }
+.cb_template .cbGallery .galleryItemsContainer .galleryContainerPhotos > .card, .cb_template .cbGallery .galleryItemsContainer .galleryContainerVideos > .card {
+  border: none;
+  margin: 0 5px 10px;
+  overflow: hidden !important;
+  width: calc(100% - 10px) !important;
+  height: calc(100% - 10px) !important; }
+  .cb_template .cbGallery .galleryItemsContainer .galleryContainerPhotos > .card > .cbCanvasLayoutFooter, .cb_template .cbGallery .galleryItemsContainer .galleryContainerVideos > .card > .cbCanvasLayoutFooter {
+    border: 2px solid #ececec;
+    padding: 20px !important;
+    transition: all 0.3s ease-in-out; }
+    .cb_template .cbGallery .galleryItemsContainer .galleryContainerPhotos > .card > .cbCanvasLayoutFooter .cbCanvasLayoutContent:first-child a, .cb_template .cbGallery .galleryItemsContainer .galleryContainerVideos > .card > .cbCanvasLayoutFooter .cbCanvasLayoutContent:first-child a {
+      font-size: 18px;
+      font-weight: bold; }
+    .cb_template .cbGallery .galleryItemsContainer .galleryContainerPhotos > .card > .cbCanvasLayoutFooter .cbCanvasLayoutContent:last-child, .cb_template .cbGallery .galleryItemsContainer .galleryContainerVideos > .card > .cbCanvasLayoutFooter .cbCanvasLayoutContent:last-child {
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 2px; }
+.cb_template .cbGallery .galleryItemsContainer .galleryContainerPhotos .galleryImage, .cb_template .cbGallery .galleryItemsContainer .galleryContainerVideos .galleryImage {
+  max-width: 100% !important;
+  max-height: 100% !important; }
+.cb_template .cbGallery .galleryFolderHeader {
+  margin-bottom: 2rem !important; }
+.cb_template .cbGallery .galleryItemsNewUploadArea {
+  border-radius: 15px !important;
+  background: #ececec; }
+.cb_template .cbGallery .galleryItemsNewEdit .card {
+  margin-bottom: 2rem !important; }
+  .cb_template .cbGallery .galleryItemsNewEdit .card .card-body {
+    padding: 2rem !important; }
+    .cb_template .cbGallery .galleryItemsNewEdit .card .card-body .galleryItemEditMiniPreview {
+      padding-right: 1rem !important; }
+      .cb_template .cbGallery .galleryItemsNewEdit .card .card-body .galleryItemEditMiniPreview .card.cbCanvasLayout {
+        border: none; }
+    .cb_template .cbGallery .galleryItemsNewEdit .card .card-body .galleryImage, .cb_template .cbGallery .galleryItemsNewEdit .card .card-body .galleryVideoPlayer {
+      max-width: 100% !important;
+      border: none !important;
+      max-height: 100% !important; }
+  .cb_template .cbGallery .galleryItemsNewEdit .card .card-footer {
+    border-width: 2px !important;
+    border-color: #ececec; }
+    .cb_template .cbGallery .galleryItemsNewEdit .card .card-footer button.galleryButtonDelete {
+      background: #fff;
+      border-width: 2px;
+      border-style: solid; }
+.cb_template .cbGallery .galleryItemsNewOr {
+  margin: 2rem 0 !important; }
+.cb_template .cbGallery .galleryItemsNewLink {
+  margin-bottom: 2rem !important; }
+.cb_template .cbGallery .galleryItemsNewLink .galleryButtonShare {
+  border-radius: 0 15px 15px 0 !important; }
+.cb_template .cbGallery .galleryItemEditMicroActions button.btn.galleryButtonDelete {
+  padding: 5px 16px;
+  font-size: 13px;
+  height: 30px;
+  background: #fff; }
+.cb_template .cbGallery .galleryItemsEdit .galleryItemEditMicro .card,
+.cb_template .cbGallery .galleryItemsNewEdit .galleryItemEditMicro .card {
+  padding: 0;
+  border: none; }
+  .cb_template .cbGallery .galleryItemsEdit .galleryItemEditMicro .card img, .cb_template .cbGallery .galleryItemsEdit .galleryItemEditMicro .card video,
+  .cb_template .cbGallery .galleryItemsNewEdit .galleryItemEditMicro .card img,
+  .cb_template .cbGallery .galleryItemsNewEdit .galleryItemEditMicro .card video {
+    max-width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: cover; }
+.cb_template.cbOnlineUsers .card {
+  margin-bottom: 1.33rem !important; }
+  .cb_template.cbOnlineUsers .card:last-child {
+    margin-bottom: 0 !important; }
+.cb_template.cbOnlineUsers .card-body {
+  padding: 0 !important; }
+.cb_template.cbOnlineUsers .img-thumbnail {
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  border: none; }
+.cb_template .cbCanvasLayoutBody > .cbCanvasLayoutContent:first-child {
+  padding: 20px;
+  margin: 0 !important; }
+  .cb_template .cbCanvasLayoutBody > .cbCanvasLayoutContent:first-child a {
+    font-family: Baloo;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 6px; }
+  .cb_template .cbCanvasLayoutBody > .cbCanvasLayoutContent:first-child .gjModuleGroupCategory a {
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    display: block; }
+.cb_template .cbCanvasLayoutBody > .cbCanvasLayoutContent.text-muted {
+  padding: 10px 20px !important;
+  margin: 0 !important;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 500; }
+  .cb_template .cbCanvasLayoutBody > .cbCanvasLayoutContent.text-muted:empty {
+    padding: 0 !important; }
+.cb_template .border-top {
+  border-top: 2px solid #ececec !important; }
+.cb_template .text-success {
+  color: #46d0a3 !important; }
+  .cb_template .text-success.cb_online .fa:before {
+    font-size: 18px; }
+.cb_template .text-large {
+  font-family: Baloo;
+  font-size: 1.86rem;
+  font-weight: normal; }
+.cb_template .input-group input.form-control {
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  height: 50px; }
+.cb_template .input-group .input-group-prepend > span {
+  background: transparent;
+  padding: 0 20px;
+  border-radius: 15px 0 0 15px;
+  border-color: #ececec;
+  border-width: 2px;
+  margin: 0 -2px; }
+.cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel):not(.commentsButtonNewCancel) {
+  border: 2px solid #ececec;
+  border-radius: 25px;
+  padding: 10px 40px;
+  height: 50px;
+  font-size: 15px;
+  font-family: Baloo;
+  font-weight: normal;
+  outline: none;
+  background: #fff;
+  color: #333;
+  box-shadow: none !important; }
+  .cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel):not(.commentsButtonNewCancel):hover {
+    color: #fff;
+    border: none; }
+
+.commentContainerFooterRowButtons .btn[class*="btn-"],
+.activityContainerFooterRowButtons .btn[class*="btn-"],
+.activityContainerFooterRowRight .btn[class*="btn-"] {
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 36px;
+  margin: 0;
+  padding: 0 16px;
+  color: #666666;
+  height: 40px !important;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 500; }
+  .commentContainerFooterRowButtons .btn[class*="btn-"].streamToggle,
+  .activityContainerFooterRowButtons .btn[class*="btn-"].streamToggle,
+  .activityContainerFooterRowRight .btn[class*="btn-"].streamToggle {
+    width: 40px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    border-color: #ececec;
+    border-width: 2px;
+    box-shadow: none;
+    background: #fff;
+    color: #666; }
+    .commentContainerFooterRowButtons .btn[class*="btn-"].streamToggle.streamToggleOpen, .commentContainerFooterRowButtons .btn[class*="btn-"].streamToggle:focus,
+    .activityContainerFooterRowButtons .btn[class*="btn-"].streamToggle.streamToggleOpen,
+    .activityContainerFooterRowButtons .btn[class*="btn-"].streamToggle:focus,
+    .activityContainerFooterRowRight .btn[class*="btn-"].streamToggle.streamToggleOpen,
+    .activityContainerFooterRowRight .btn[class*="btn-"].streamToggle:focus {
+      color: #fff; }
+
+.commentContainerFooterRowButtons .btn[class*="btn-"],
+.activityContainerFooterRowButtons .btn[class*="btn-"] {
+  font-family: Baloo;
+  font-size: 15px;
+  font-weight: normal; }
+  .commentContainerFooterRowButtons .btn[class*="btn-"][type="submit"],
+  .activityContainerFooterRowButtons .btn[class*="btn-"][type="submit"] {
+    border: none;
+    color: #fff; }
+  .commentContainerFooterRowButtons .btn[class*="btn-"][type="button"],
+  .activityContainerFooterRowButtons .btn[class*="btn-"][type="button"] {
+    color: #333333;
+    border-color: #ececec; }
+
+.cb_template .fa:before, .cb_template .fa-before:before, .cb_template .fa-raw, .cb_template .fa-raw:before, .cb_template .fa-raw-before:before {
+  font-size: 15px; }
+
+h3.cb-page-header-title {
+  font-family: Baloo;
+  font-size: 28px;
+  font-weight: normal; }
+
+.pmMessagesRowEmpty,
+.pbWallEmpty,
+.gjGroupWallEmpty,
+.gjGroupVideoEmpty,
+.gjGroupPhotoEmpty,
+.gjGroupEventsEmpty {
+  margin-top: 25px; }
+
+.gjGroupPhotoHeader .input-group,
+.gjCategoryHeader .input-group {
+  justify-content: flex-end; }
+
+.cbGroupJive .gjCategory .cbCanvasLayout, .cbGroupJive .gjGroup .cbCanvasLayout {
+  border-radius: 15px;
+  margin-bottom: 50px;
+  height: auto !important;
+  overflow: visible !important; }
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop {
+    margin: -2px -2px 0; }
+    .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions {
+      top: 10px;
+      right: 10px; }
+      .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions button, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions button {
+        border-radius: 5px;
+        border: solid 2px #ececec !important;
+        box-shadow: none;
+        background: #fff;
+        color: #666;
+        height: 40px; }
+    .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row {
+      padding: 15px 10px 36px;
+      background: transparent !important; }
+      .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutPhoto .cbImgPict, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutPhoto .cbImgPict {
+        min-height: 200px;
+        border-radius: 15px;
+        border: solid 2px #ececec; }
+      .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row {
+        margin: 0 -20px; }
+      .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbPosCanvasPhoto, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbPosCanvasPhoto {
+        bottom: 0; }
+      .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters {
+        font-size: 1rem;
+        margin: 0 -15px; }
+        .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters a, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters a {
+          color: #666666; }
+        .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters > span, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutCounters > span {
+          margin: 0 15px; }
+    .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutBackground .cbImgCanvas, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutBackground .cbImgCanvas {
+      border-radius: 15px 15px 0 0; }
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutCounter span.gjCategoryGroupsIcon, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutCounter span.gjCategoryGroupsIcon {
+    font-size: 1rem; }
+.cbGroupJive .gjCategory .gjCategoryRows, .cbGroupJive .gjGroup .gjCategoryRows {
+  margin: 0 -12px 0; }
+  .cbGroupJive .gjCategory .gjCategoryRows .gjCategoryGroup a, .cbGroupJive .gjGroup .gjCategoryRows .gjCategoryGroup a {
+    font-family: Baloo;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0; }
+  .cbGroupJive .gjCategory .gjCategoryRows .card, .cbGroupJive .gjGroup .gjCategoryRows .card {
+    margin: 30px 12px 0;
+    padding-bottom: 0 !important;
+    overflow: visible !important; }
+    .cbGroupJive .gjCategory .gjCategoryRows .card .card-header, .cbGroupJive .gjGroup .gjCategoryRows .card .card-header {
+      margin: -2px -2px 0;
+      background: transparent; }
+      .cbGroupJive .gjCategory .gjCategoryRows .card .card-header .cbCanvasLayoutBackground .cbImgCanvas, .cbGroupJive .gjGroup .gjCategoryRows .card .card-header .cbCanvasLayoutBackground .cbImgCanvas {
+        border-radius: 15px 15px 0 0; }
+    .cbGroupJive .gjCategory .gjCategoryRows .card .gjLogo, .cbGroupJive .gjGroup .gjCategoryRows .card .gjLogo {
+      max-width: 80px;
+      border: none;
+      border-radius: 15px; }
+.cbGroupJive .gjGroup > .cbCanvasLayout {
+  margin-bottom: 0;
+  border-radius: 15px 15px 0 0;
+  border-bottom: none !important; }
+  .cbGroupJive .gjGroup > .cbCanvasLayout + .cbCanvasLayoutMain div.navbar {
+    border-radius: 0;
+    background: #fff !important;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 50px !important;
+    border-top: none !important; }
+    .cbGroupJive .gjGroup > .cbCanvasLayout + .cbCanvasLayoutMain div.navbar #cbtabsgrouptabMenu {
+      padding: 0; }
+    .cbGroupJive .gjGroup > .cbCanvasLayout + .cbCanvasLayoutMain div.navbar.navbar-light .navbar-nav {
+      margin: 0 -15px; }
+      .cbGroupJive .gjGroup > .cbCanvasLayout + .cbCanvasLayoutMain div.navbar.navbar-light .navbar-nav .nav-link {
+        color: #666;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-left: 15px;
+        padding-right: 15px; }
+.cbGroupJive .gjGroup .gjGroupUsers .cbCanvasLayoutBody {
+  padding: 0 !important; }
+  .cbGroupJive .gjGroup .gjGroupUsers .cbCanvasLayoutBody > .cbCanvasLayoutContent:last-child {
+    border-top: 2px solid #ececec; }
+    .cbGroupJive .gjGroup .gjGroupUsers .cbCanvasLayoutBody > .cbCanvasLayoutContent:last-child:empty {
+      border-top: none; }
+.cbGroupJive .gjGroup .gjGroupVideo .gjGroupVideoRows,
+.cbGroupJive .gjGroup .gjGroupVideo .gjGroupInvitesRows,
+.cbGroupJive .gjGroup .gjGroupVideo .gjGroupEventsRows,
+.cbGroupJive .gjGroup .gjGroupVideo .gjGroupFileRows,
+.cbGroupJive .gjGroup .gjGroupVideo .gjGroupPhotoRows,
+.cbGroupJive .gjGroup .gjGroupInvites .gjGroupVideoRows,
+.cbGroupJive .gjGroup .gjGroupInvites .gjGroupInvitesRows,
+.cbGroupJive .gjGroup .gjGroupInvites .gjGroupEventsRows,
+.cbGroupJive .gjGroup .gjGroupInvites .gjGroupFileRows,
+.cbGroupJive .gjGroup .gjGroupInvites .gjGroupPhotoRows,
+.cbGroupJive .gjGroup .gjGroupFile .gjGroupVideoRows,
+.cbGroupJive .gjGroup .gjGroupFile .gjGroupInvitesRows,
+.cbGroupJive .gjGroup .gjGroupFile .gjGroupEventsRows,
+.cbGroupJive .gjGroup .gjGroupFile .gjGroupFileRows,
+.cbGroupJive .gjGroup .gjGroupFile .gjGroupPhotoRows,
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupVideoRows,
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupInvitesRows,
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows,
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupFileRows,
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupPhotoRows,
+.cbGroupJive .gjGroup .gjGroupPhoto .gjGroupVideoRows,
+.cbGroupJive .gjGroup .gjGroupPhoto .gjGroupInvitesRows,
+.cbGroupJive .gjGroup .gjGroupPhoto .gjGroupEventsRows,
+.cbGroupJive .gjGroup .gjGroupPhoto .gjGroupFileRows,
+.cbGroupJive .gjGroup .gjGroupPhoto .gjGroupPhotoRows {
+  margin-top: 30px; }
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupVideoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupInvitesRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupEventsRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupFileRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupPhotoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupVideoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupInvitesRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupEventsRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupFileRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupPhotoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupVideoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupInvitesRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupEventsRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupFileRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupPhotoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupVideoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupInvitesRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupFileRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupPhotoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupVideoRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupInvitesRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupEventsRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupFileRows .cbCanvasLayout,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupPhotoRows .cbCanvasLayout {
+    border: none;
+    background: transparent; }
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupVideoRows a,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupInvitesRows a,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupEventsRows a,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupFileRows a,
+  .cbGroupJive .gjGroup .gjGroupVideo .gjGroupPhotoRows a,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupVideoRows a,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupInvitesRows a,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupEventsRows a,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupFileRows a,
+  .cbGroupJive .gjGroup .gjGroupInvites .gjGroupPhotoRows a,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupVideoRows a,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupInvitesRows a,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupEventsRows a,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupFileRows a,
+  .cbGroupJive .gjGroup .gjGroupFile .gjGroupPhotoRows a,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupVideoRows a,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupInvitesRows a,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows a,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupFileRows a,
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupPhotoRows a,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupVideoRows a,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupInvitesRows a,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupEventsRows a,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupFileRows a,
+  .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupPhotoRows a {
+    width: auto !important;
+    height: auto !important; }
+    .cbGroupJive .gjGroup .gjGroupVideo .gjGroupVideoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupVideo .gjGroupInvitesRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupVideo .gjGroupEventsRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupVideo .gjGroupFileRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupVideo .gjGroupPhotoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupInvites .gjGroupVideoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupInvites .gjGroupInvitesRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupInvites .gjGroupEventsRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupInvites .gjGroupFileRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupInvites .gjGroupPhotoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupFile .gjGroupVideoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupFile .gjGroupInvitesRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupFile .gjGroupEventsRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupFile .gjGroupFileRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupFile .gjGroupPhotoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupVideoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupInvitesRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupFileRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupPhotoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupVideoRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupInvitesRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupEventsRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupFileRows a .cbImgPict,
+    .cbGroupJive .gjGroup .gjGroupPhoto .gjGroupPhotoRows a .cbImgPict {
+      max-width: 100% !important; }
+@media (min-width: 768px) {
+  .cbGroupJive .gjGroup .gjGroupVideoRows,
+  .cbGroupJive .gjGroup .gjGroupPhotoRows {
+    display: flex; }
+    .cbGroupJive .gjGroup .gjGroupVideoRows .card,
+    .cbGroupJive .gjGroup .gjGroupPhotoRows .card {
+      margin: 0 15px;
+      border: 2px solid #ececec !important;
+      border-radius: 0; } }
+.cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutBottom, .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutHoverShow,
+.cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutBottom,
+.cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutHoverShow {
+  padding: 15px 20px !important; }
+  .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:first-child, .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:first-child,
+  .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:first-child,
+  .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Quicksand; }
+  .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:last-child, .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:last-child,
+  .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:last-child,
+  .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:last-child {
+    font-size: 1rem;
+    margin-top: -5px; }
+    .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:last-child *, .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:last-child *,
+    .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutBottom .cbCanvasLayoutContent:last-child *,
+    .cbGroupJive .gjGroup .gjGroupVideoRows .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:last-child * {
+      font-size: 15px;
+      color: #666;
+      font-family: Quicksand; }
+.cbGroupJive .gjGroup .gjGroupPhotoRows {
+  margin: 0 -15px; }
+  .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover {
+    overflow: hidden !important;
+    margin: 0 15px 30px;
+    border: none !important;
+    width: calc(100% - 30px) !important;
+    height: calc(100% - 30px) !important;
+    border: none !important; }
+    .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover .card-header {
+      margin: 0; }
+    .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover .cbCanvasLayoutHoverShow {
+      transition: all 0.3s ease-in-out;
+      border: 2px solid #ececec; }
+      .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover .cbCanvasLayoutHoverShow .cbCanvasLayoutContent:last-child {
+        margin-top: 2px; }
+    .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover .gjGroupPhotoLogo {
+      display: block !important; }
+      .cbGroupJive .gjGroup .gjGroupPhotoRows .cbCanvasLayout.cbCanvasLayoutHover .gjGroupPhotoLogo img {
+        width: 100%;
+        min-width: 285px;
+        min-height: 285px;
+        object-fit: cover; }
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventsRow {
+  margin-bottom: 30px !important; }
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventsRow .gjGroupEventMenu button.gjButtonAttend {
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 13px; }
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventCalendar .card {
+  background: #f8f8f8;
+  overflow: hidden !important; }
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventCalendar .card > div {
+    padding: 22px 0 !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; }
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventCalendar .card > div:last-child {
+      background: #fff;
+      border-width: 2px;
+      border-color: #ececec; }
+.cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer {
+  padding-left: 1.5rem; }
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card {
+    border-color: #ececec !important; }
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .card-header {
+      padding: 18px 30px 15px !important; }
+      .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .card-header .gjGroupEventTitle {
+        font-size: 16px; }
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails {
+      font-size: 1rem;
+      padding: 20px 30px !important; }
+      .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails .gjGroupEventNotice {
+        text-align: left !important;
+        margin-bottom: 15px; }
+        .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails .gjGroupEventNotice .cbDateTimeago {
+          font-size: 1rem; }
+      .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails > div:not(.gjGroupEventNotice) {
+        padding: 3.5px 0; }
+        .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails > div:not(.gjGroupEventNotice).gjGroupEventAttending .gjGroupEventGuests {
+          flex: 0 0 20%; }
+        .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDetails > div:not(.gjGroupEventNotice).gjGroupEventAttending .gjGroupEventHost {
+          text-align: left !important; }
+    .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDescription {
+      padding: 20px 30px !important; }
+      .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer .card .gjGroupEventDescription p:last-child {
+        margin-bottom: 0; }
+.cbGroupJive .gjGroup .gjGroupWallInputMessage {
+  padding: 12px 20px;
+  height: auto !important;
+  border-radius: 15px !important;
+  border-color: #ececec;
+  border-width: 2px; }
+.cbGroupJive .gjGroup .gjGroupWallNewFooter {
+  padding: 1rem !important;
+  background-color: #f8f8f8;
+  border-radius: 0 0 15px 15px;
+  border-width: 2px;
+  border-color: #ececec; }
+  .cbGroupJive .gjGroup .gjGroupWallNewFooter button[type="submit"] {
+    font-family: Baloo;
+    font-size: 15px;
+    font-weight: normal;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 16px;
+    color: #fff;
+    height: 40px;
+    border: none; }
+.cbGroupJive .gjGroup .gjGroupWallRows .card {
+  margin-top: 30px;
+  margin-bottom: 0 !important;
+  overflow: hidden; }
+  .cbGroupJive .gjGroup .gjGroupWallRows .card .card-header {
+    padding: 20px 20px 15px !important; }
+  .cbGroupJive .gjGroup .gjGroupWallRows .card .gjGroupWallRowBody {
+    padding: 0 20px 10px !important; }
+  .cbGroupJive .gjGroup .gjGroupWallRows .card .gjGroupWallRowFooter {
+    border-width: 2px;
+    border-color: #ececec;
+    background-color: #f8f8f8; }
+    .cbGroupJive .gjGroup .gjGroupWallRows .card .gjGroupWallRowFooter .gjGroupWallReplies {
+      margin: 1rem !important; }
+.cbGroupJive .gjGroup .gjGroupWallRows .gjGroupWallRowAvatar img {
+  width: 52px;
+  max-width: none;
+  border-radius: 100%; }
+.cbGroupJive .gjCategories .gjCategoriesHeader > [class*="col-"] .input-group {
+  justify-content: flex-end; }
+.cbGroupJive .gjTabRows .gjTabGroup {
+  padding-bottom: 2rem !important; }
+.cbGroupJive .gjTabRows .cbCanvasLayout > .cbCanvasLayoutBottom {
+  padding: 0 !important; }
+.cbGroupJive .gjTabRows .cbCanvasLayoutBody .gjTabGroupCategory {
+  margin-top: 5px;
+  margin-bottom: -20px; }
+  .cbGroupJive .gjTabRows .cbCanvasLayoutBody .gjTabGroupCategory a,
+  .cbGroupJive .gjTabRows .cbCanvasLayoutBody .gjTabGroupCategory strong {
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 500; }
+.cbGroupJive .gjTabRows,
+.cbGroupJive .gjCategoriesRows {
+  margin: 30px -12px 0; }
+  .cbGroupJive .gjTabRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop,
+  .cbGroupJive .gjCategoriesRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop {
+    background: transparent;
+    margin: -2px -2px 0; }
+    .cbGroupJive .gjTabRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop .cbCanvasLayoutBackground .cbThumbCanvas,
+    .cbGroupJive .gjCategoriesRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop .cbCanvasLayoutBackground .cbThumbCanvas {
+      overflow: hidden;
+      border-radius: 15px 15px 0 0; }
+    .cbGroupJive .gjTabRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto .cbImgPict,
+    .cbGroupJive .gjCategoriesRows .cbCanvasLayout.cbCanvasLayoutMd .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto .cbImgPict {
+      max-height: 80px;
+      border-radius: 15px;
+      border: none; }
+  .cbGroupJive .gjTabRows .card,
+  .cbGroupJive .gjCategoriesRows .card {
+    margin: 0 12px 20px; }
+  .cbGroupJive .gjTabRows .cbCanvasLayoutBody,
+  .cbGroupJive .gjCategoriesRows .cbCanvasLayoutBody {
+    padding: 0 !important; }
+    .cbGroupJive .gjTabRows .cbCanvasLayoutBody > .cbCanvasLayoutContent a,
+    .cbGroupJive .gjCategoriesRows .cbCanvasLayoutBody > .cbCanvasLayoutContent a {
+      margin: 0; }
+      .cbGroupJive .gjTabRows .cbCanvasLayoutBody > .cbCanvasLayoutContent a:hover,
+      .cbGroupJive .gjCategoriesRows .cbCanvasLayoutBody > .cbCanvasLayoutContent a:hover {
+        color: #333; }
+    .cbGroupJive .gjTabRows .cbCanvasLayoutBody > .cbCanvasLayoutContent:last-child,
+    .cbGroupJive .gjCategoriesRows .cbCanvasLayoutBody > .cbCanvasLayoutContent:last-child {
+      border-top: 2px solid #ececec; }
+.cbGroupJive .gjCategoriesRows .cbCanvasLayout .cbCanvasLayoutBottom .cbCanvasLayoutPhoto {
+  bottom: 100%;
+  transform: translateY(-45%); }
+
+.cb_template a:hover {
+  color: #333; }
+.cb_template.cbManageConnections > form .row {
+  margin: 0 -15px !important; }
+  .cb_template.cbManageConnections > form .row > [class*="col-"] {
+    float: none;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: 2rem !important; }
+    .cb_template.cbManageConnections > form .row > [class*="col-"] .img-thumbnail {
+      border-radius: 100%; }
+    .cb_template.cbManageConnections > form .row > [class*="col-"] span.fa:before {
+      content: "\f111";
+      font-size: 21px;
+      margin: 0 5px; }
+.cb_template.cbManageConnections .card.cbCanvasLayout > .card-body {
+  padding: 1.33rem !important; }
+  .cb_template.cbManageConnections .card.cbCanvasLayout > .card-body .cbCanvasLayoutContent:first-child {
+    padding: 0;
+    margin: 0 0 -5px !important;
+    align-items: center;
+    display: flex; }
+  .cb_template.cbManageConnections .card.cbCanvasLayout > .card-body .cbCanvasLayoutContent:not(:first-child) {
+    margin-top: 1.33rem !important; }
+.cb_template.qtip-menu .dropdown-menu {
+  position: relative;
+  float: none;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  box-shadow: none; }
+.cb_template .alert {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 2rem;
+  border-width: 2px;
+  border-radius: 15px; }
+.cb_template .cbConnectionPaths img {
+  max-width: 40px;
+  border-radius: 100%; }
+.cb_template .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions {
+  top: 15px;
+  right: 15px; }
+  .cb_template .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions button.btn {
+    padding: 5px 10px;
+    height: auto;
+    border-radius: 5px !important;
+    border: none;
+    font-family: Quicksand;
+    font-weight: bold;
+    vertical-align: text-top; }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .cb_template .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutActions button.btn.gjButtonJoin {
+        font-size: 13px;
+        padding: 5px; } }
+.cb_template .gjGroupWallMenu {
+  right: 15px;
+  top: 15px; }
+.cb_template .border-bottom {
+  border-bottom: 2px solid #ececec !important; }
+.cb_template textarea.form-control,
+.cb_template input[type="file"], .cb_template input[type="postertitle"],
+.cb_template input[type="text"], .cb_template input[type="title"], .cb_template span[class*="container--multiple"], .cb_template span[class*="container--single"]:not(.streamInputEmote), .cb_template input.form-control {
+  border-radius: 15px;
+  border: solid 2px #ececec;
+  padding: 10px 20px;
+  text-align: left;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 15px;
+  outline: none; }
+  .cb_template textarea.form-control:focus,
+  .cb_template input[type="file"]:focus, .cb_template input[type="postertitle"]:focus,
+  .cb_template input[type="text"]:focus, .cb_template input[type="title"]:focus, .cb_template span[class*="container--multiple"]:focus, .cb_template span[class*="container--single"]:not(.streamInputEmote):focus, .cb_template input.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ececec; }
+  .cb_template textarea.form-control.streamInputSelectInsert,
+  .cb_template input[type="file"].streamInputSelectInsert, .cb_template input[type="postertitle"].streamInputSelectInsert,
+  .cb_template input[type="text"].streamInputSelectInsert, .cb_template input[type="title"].streamInputSelectInsert, .cb_template span[class*="container--multiple"].streamInputSelectInsert, .cb_template span[class*="container--single"]:not(.streamInputEmote).streamInputSelectInsert, .cb_template input.form-control.streamInputSelectInsert {
+    border: none;
+    padding: 10px 0;
+    height: auto !important; }
+.cb_template input[type="file"], .cb_template input[type="postertitle"],
+.cb_template input[type="text"], .cb_template input[type="title"], .cb_template span[class*="container--multiple"], .cb_template span[class*="container--single"]:not(.streamInputEmote), .cb_template input.form-control {
+  height: 50px !important; }
+.cb_template span[class*="container--multiple"].tagsStreamEdit.streamInputSelect {
+  height: auto !important; }
+.cb_template span[class*="container--single"]:not(.streamInputEmote) {
+  padding: 10px 30px; }
+.cb_template span[id*="connectiontype"] input[type="text"] {
+  height: auto !important; }
+.cb_template input[type="file"], .cb_template input[type="postertitle"],
+.cb_template input[type="text"]:not(.streamInputLinkURL):not(.streamInput), .cb_template input[type="title"], .cb_template input.form-control:not(.streamInputLinkURL):not(.streamInput) {
+  width: 300px;
+  max-width: 300px; }
+.cb_template .form-text {
+  margin-top: 10px; }
+.cb_template .form-auto textarea.form-control {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto !important; }
+.cb_template input[type="file"]::-webkit-file-upload-button {
+  border: none;
+  background: #ececec; }
+.cb_template div.btn.cbRepeatRowAdd,
+.cb_template button.btn[class*="btn-"]:not(.cbTooltip),
+.cb_template input.btn {
+  font-family: Baloo;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 25px;
+  padding: 13px 40px;
+  height: 50px;
+  line-height: 1.5;
+  border: none;
+  box-shadow: none; }
+  .cb_template div.btn.cbRepeatRowAdd.cbUserListsSearchButton,
+  .cb_template button.btn[class*="btn-"]:not(.cbTooltip).cbUserListsSearchButton,
+  .cb_template input.btn.cbUserListsSearchButton {
+    border: 2px solid #ececec; }
+  .cb_template div.btn.cbRepeatRowAdd button.galleryButtonDelete.btn[class*="btn-"],
+  .cb_template button.btn[class*="btn-"]:not(.cbTooltip) button.galleryButtonDelete.btn[class*="btn-"],
+  .cb_template input.btn button.galleryButtonDelete.btn[class*="btn-"] {
+    padding: 5px 16px;
+    font-size: 13px;
+    height: 30px;
+    background: #fff; }
+  .cb_template div.btn.cbRepeatRowAdd[class*="btn-secondary"]:not(.cbUserListsSearchButton):not(.streamItemNewCancel),
+  .cb_template button.btn[class*="btn-"]:not(.cbTooltip)[class*="btn-secondary"]:not(.cbUserListsSearchButton):not(.streamItemNewCancel),
+  .cb_template input.btn[class*="btn-secondary"]:not(.cbUserListsSearchButton):not(.streamItemNewCancel) {
+    background-color: #cfcfcf; }
+.cb_template .cbCanvasLayout .cbCanvasLayoutTop .cbCanvasLayoutBackground .cbImagePendingApproval .cbImagePendingApprovalButtons {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  left: auto; }
+.cb_template.cbProfile .cbForums .input-group {
+  justify-content: flex-end;
+  margin-bottom: 20px; }
+.cb_template.cbProfile .cbForums ul.cbTabsNav {
+  border-bottom: 2px solid #ececec;
+  margin-bottom: 2rem !important; }
+  .cb_template.cbProfile .cbForums ul.cbTabsNav li {
+    padding: 0;
+    margin-bottom: -2px; }
+    .cb_template.cbProfile .cbForums ul.cbTabsNav li a {
+      border-width: 2px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      padding: 12px 20px;
+      color: #555; }
+.cb_template.cbProfile .galleryFoldersContainer + hr.mb-2 {
+  margin-bottom: 2rem !important; }
+  .cb_template.cbProfile .galleryFoldersContainer + hr.mb-2 + .galleryItemsContainer > .galleryItemsRows {
+    margin: 0 -15px; }
+  .cb_template.cbProfile .galleryFoldersContainer + hr.mb-2 + .galleryItemsContainer .card {
+    overflow: hidden !important;
+    margin: 0 15px 30px;
+    border: none !important;
+    width: calc(100% - 30px) !important;
+    height: calc(100% - 30px) !important;
+    border: none !important; }
+    .cb_template.cbProfile .galleryFoldersContainer + hr.mb-2 + .galleryItemsContainer .card .cbCanvasLayoutFooter {
+      border-width: 2px;
+      padding: 10px 20px !important;
+      border-style: solid;
+      border-color: #ececec;
+      opacity: 0;
+      transition: all 0.3s ease-in-out; }
+.cb_template.cbProfile .galleryFoldersContainer .galleryFoldersRows {
+  margin: 0 -15px; }
+.cb_template.cbProfile .galleryFoldersContainer .galleryContainerSolid > .card {
+  overflow: hidden !important;
+  margin: 0 15px 30px;
+  border: none !important;
+  width: calc(100% - 30px) !important;
+  height: calc(100% - 30px) !important;
+  border: none !important; }
+  .cb_template.cbProfile .galleryFoldersContainer .galleryContainerSolid > .card:hover .cbCanvasLayoutFooter {
+    opacity: 1; }
+.cb_template.cbProfile .galleryFoldersContainer .galleryContainerSolid .galleryImage {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: cover; }
+.cb_template.cbProfile .galleryFoldersContainer .galleryContainerSolid .cbCanvasLayoutFooter {
+  border-width: 2px;
+  padding: 10px 20px !important;
+  border-style: solid;
+  border-color: #ececec;
+  opacity: 0;
+  transition: all 0.3s ease-in-out; }
+.cb_template.cbProfile .cbTabsMenuContent .show-connection-tab {
+  margin: 0 -15px; }
+  .cb_template.cbProfile .cbTabsMenuContent .show-connection-tab .card.cbCanvasLayout {
+    margin: 0 15px; }
+.cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout {
+  position: relative; }
+  .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop {
+    min-height: 142px;
+    border-width: 2px;
+    border-color: #ececec; }
+    .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop + .cbCanvasLayoutBottom {
+      position: absolute !important; }
+      .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto {
+        left: 20px;
+        top: 20px; }
+        .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout.cbCanvasLayoutSm .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto .cbImgPict {
+          min-width: 92px;
+          min-height: 92px; }
+  .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout > .cbCanvasLayoutBody {
+    padding: 0 !important; }
+    .cb_template.cbProfile .cbTabsMenuContent .card.cbCanvasLayout > .cbCanvasLayoutBody > .cbCanvasLayoutContent:last-child {
+      padding: 5px 20px 10px;
+      border-top: 2px solid #ececec;
+      margin: 0; }
+.cb_template.cbProfile .cbPosHead .cbConnectionPaths {
+  align-items: center; }
+  .cb_template.cbProfile .cbPosHead .cbConnectionPaths img {
+    background: transparent;
+    border: none;
+    max-height: 40px; }
+.cb_template.cbProfile .cbTabsMenuMain table, .cb_template.cbProfile .cbTabsMenuMain .cbFieldsContentsTab {
+  font-size: 18px; }
+.cb_template.cbProfile .btn.btn-danger {
+  background: #fff; }
+.cb_template.cbProfile .cbCanvasLayoutPhoto .img-thumbnail {
+  border-radius: 100%; }
+.cb_template.cbProfile .cbTabsMenuNavBar.navbar {
+  border-radius: 0 0 15px 15px;
+  border-top: none !important;
+  margin-bottom: 3.2rem !important;
+  padding-left: 0;
+  padding-right: 0; }
+  .cb_template.cbProfile .cbTabsMenuNavBar.navbar .cbTabNavMenuMore {
+    margin: 0 !important; }
+    .cb_template.cbProfile .cbTabsMenuNavBar.navbar .cbTabNavMenuMore a {
+      padding: 6px 10px 0; }
+      .cb_template.cbProfile .cbTabsMenuNavBar.navbar .cbTabNavMenuMore a .fa::before {
+        font-size: 24px; }
+.cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse {
+  padding-right: 5px;
+  padding-left: 5px; }
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse .fa:before {
+    font-size: 20px; }
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse ul li:first-child .nav-link {
+    padding-left: 0.67rem;
+    padding-right: 0.67rem; }
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse ul li:first-child + li .nav-link {
+    padding-left: 0.67rem;
+    padding-right: 0.67rem; }
+.cb_template.cbProfile .cbCanvasLayoutMenu .navbar {
+  border-radius: 15px 15px 0 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: none !important; }
+.cb_template.cbProfile .navbar-light .navbar-nav .nav-link {
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+.cb_template.cbProfile .cbCanvasLayout > .cbCanvasLayoutBottom {
+  padding: 20px 10px 34px; }
+  .cb_template.cbProfile .cbCanvasLayout > .cbCanvasLayoutBottom .cbCanvasLayoutCounters {
+    font-size: 15px;
+    margin: 5px -15px 0; }
+    .cb_template.cbProfile .cbCanvasLayout > .cbCanvasLayoutBottom .cbCanvasLayoutCounters .cbFieldsContentsTab > div {
+      margin: 0 1rem !important; }
+  .cb_template.cbProfile .cbCanvasLayout > .cbCanvasLayoutBottom > [class*="col-"]:last-child {
+    margin: 0 -30px; }
+.cb_template .cbFieldIcons {
+  display: inline-block;
+  margin-left: 0.6rem; }
+.cb_template.cbEditProfile select.form-control,
+.cb_template.cbEditProfile input[type="file"], .cb_template.cbEditProfile input[type="postertitle"],
+.cb_template.cbEditProfile input[type="text"], .cb_template.cbEditProfile input[type="title"], .cb_template.cbEditProfile input.form-control {
+  min-width: 258px;
+  width: 258px; }
+.cb_template.cbEditProfile #cbfv_params_helpsite select.form-control {
+  width: 228px; }
+.cb_template.cbEditProfile .cbft_image .cbImageFieldImage {
+  margin-bottom: 1.85rem !important; }
+.cb_template.cbEditProfile .cbft_image label#cblabavatar {
+  align-self: self-start;
+  padding: 0; }
+.cb_template.cbEditProfile .cbft_image .img-thumbnail {
+  min-width: 150px;
+  min-height: 150px;
+  border: none;
+  padding: 0; }
+.cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(4) .form-group, .cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(5) .form-group, .cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(6) .form-group {
+  margin-bottom: 0.5rem; }
+  .cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(4) .form-group:last-child, .cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(5) .form-group:last-child, .cb_template.cbEditProfile .cbTabsContent .cbTabPane:nth-child(6) .form-group:last-child {
+    margin-bottom: 1rem; }
+.cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_privacy select[multiple] {
+  height: auto; }
+.cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_privacy span[class*="container--multiple"], .cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_privacy span.cbPrivacySelect {
+  height: auto !important; }
+.cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_fieldgroup .cbRepeatRow {
+  border-radius: 15px !important; }
+  .cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_fieldgroup .cbRepeatRow div.btn.cbRepeatRowAdd {
+    background: no-repeat;
+    color: #333;
+    border: 2px solid #ececec;
+    margin-top: 0.8rem; }
+  .cb_template.cbEditProfile .cbTabsContent .cbTabPane .cbft_fieldgroup .cbRepeatRow .cbRepeatRowParams {
+    padding: 30px 30px 0;
+    margin: 0 !important; }
+.cb_template.cbEditProfile .nav-tabs {
+  border-bottom: 2px solid #ececec;
+  margin-bottom: 2rem !important; }
+  .cb_template.cbEditProfile .nav-tabs .nav-item {
+    padding: 0;
+    margin-bottom: -2px; }
+  .cb_template.cbEditProfile .nav-tabs .nav-link {
+    border-width: 2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 12px 20px;
+    color: #555; }
+.cb_template .input-group-append .btn[class*="btn-"] + .btn[class*="btn-"] {
+  margin-left: -2px; }
+
+.cb_template .form-auto select.form-control {
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: #ececec;
+  padding: 10px 20px; }
+  .cb_template .form-auto select.form-control:not([multiple="multiple"]) {
+    height: 50px;
+    box-shadow: none; }
+
+.gjGroupEventsHeader > [class*="col"]:last-child .input-group {
+  justify-content: flex-end; }
+
+.cbLostPassForm .cb_field .form-check-inline label {
+  line-height: 1; }
+
+.cbUsersList .cbUserListTitle {
+  margin-bottom: 30px !important; }
+.cbUsersList .cb-page-header-title {
+  font-family: Baloo;
+  font-size: 28px;
+  font-weight: normal; }
+.cbUsersList .cbUserListHead {
+  margin-bottom: 50px; }
+.cbUsersList #cbUserTable {
+  margin: 0 -15px; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList:not(.cbUserListCanvas) {
+    border: 2px solid #ececec;
+    border-radius: 15px;
+    margin: 30px 0 0 !important; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList:not(.cbUserListCanvas).cbUserListT_7 .row.cbUserListHeader > div:first-child {
+      flex: 0 0 25%; }
+  .cbUsersList #cbUserTable .cbThumbPict {
+    border-radius: 100%; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas .cbUserListHeader > [class*="col-"] {
+    padding: 0 !important;
+    font-family: Baloo;
+    font-size: 28px;
+    font-weight: normal !important;
+    width: 100% !important;
+    margin: 0 0 20px; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow:hover {
+    background-color: transparent !important; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn {
+    border: 2px solid #ececec;
+    border-radius: 15px;
+    position: relative; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn .cbUserListFL_canvas {
+      margin: -30px -30px 0;
+      border-radius: 15px 15px 0 0;
+      overflow: hidden; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn .cbUserListFL_avatar {
+      position: absolute;
+      top: 20px;
+      left: 20px; }
+      .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn .cbUserListFL_avatar .img-thumbnail {
+        border-radius: 100%; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn .cbUserListFL_formatname {
+      margin: 15px 0 5px;
+      font-family: Baloo;
+      font-size: 1.2rem;
+      font-weight: normal; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListCanvas > .cbUserListRow > .cbUserListRowColumn .cbUserListFL_onlinestatus {
+      font-family: Quicksand;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: -5px; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .cbUserListFL_avatar img {
+    min-width: 170px;
+    border-radius: 100%;
+    border-color: #ececec; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .row.cbUserListRow .cbUserListRowColumn > div {
+    padding: 3px 0;
+    color: #666666;
+    font-weight: bold; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .row.cbUserListRow .cbUserListRowColumn > div span.cbUserListFT_cb_pb_profile_rating {
+      margin-bottom: 5px;
+      display: block; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .row.cbUserListRow .cbUserListRowColumn .cbDateTimeago {
+    font-size: 18px; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .cbUserListFL_formatname {
+    margin: 10px 55px 0;
+    font-family: Baloo;
+    font-size: 22px;
+    font-weight: normal; }
+  .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .cbUserListFL_onlinestatus {
+    font-size: 13px;
+    margin: 0 50px; }
+    .cbUsersList #cbUserTable.cbUserListLayoutList.cbUserListDiv.cbUserListT_5 .cbUserListFL_onlinestatus .text-success.cb_online .fa:before {
+      font-size: 15px; }
+  .cbUsersList #cbUserTable.cbUserListLayoutGrid > div {
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
+    .cbUsersList #cbUserTable.cbUserListLayoutGrid > div .card {
+      overflow: visible !important; }
+      .cbUsersList #cbUserTable.cbUserListLayoutGrid > div .card .card-header {
+        margin: -2px -2px 0; }
+        .cbUsersList #cbUserTable.cbUserListLayoutGrid > div .card .card-header .cbThumbCanvas {
+          border-radius: 15px 15px 0 0; }
+  .cbUsersList #cbUserTable.cbUserListLayoutGrid .cbCanvasLayoutBody {
+    padding: 0 !important; }
+    .cbUsersList #cbUserTable.cbUserListLayoutGrid .cbCanvasLayoutBody .cbCanvasLayoutContent2 {
+      border-top: 2px solid #ececec;
+      padding: 10px 20px; }
+      .cbUsersList #cbUserTable.cbUserListLayoutGrid .cbCanvasLayoutBody .cbCanvasLayoutContent2 span,
+      .cbUsersList #cbUserTable.cbUserListLayoutGrid .cbCanvasLayoutBody .cbCanvasLayoutContent2 .cbDateTimeago {
+        font-size: 13px; }
+  .cbUsersList #cbUserTable .row > [class*="col"] {
+    padding: 24px 30px !important;
+    font-size: 18px; }
+  .cbUsersList #cbUserTable .row.cbUserListRow > div:first-child {
+    font-weight: bold; }
+.cbUsersList .cbUserListSearch {
+  margin-bottom: 50px; }
+  .cbUsersList .cbUserListSearch .searchCriteriaTitleHtml.cb-page-header {
+    margin-top: 2rem; }
+.cbUsersList .cbUserListSearchButtons {
+  margin-top: 20px !important; }
+  .cbUsersList .cbUserListSearchButtons .cbUserListsSearchButton {
+    border-radius: 25px;
+    border: solid 2px #ececec;
+    background: #fff;
+    color: #333;
+    font-family: Baloo;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 12px 30px;
+    height: 50px; }
+.cbUsersList .cbUserListSearchFields .form-group {
+  display: flex;
+  align-items: center; }
+  .cbUsersList .cbUserListSearchFields .form-group label {
+    flex: 0 0 10%; }
+.cbUsersList .cbUserListSearchFields .cbUserListSearchButtons > [class*="col-"] {
+  margin-left: 10%; }
+
+.cbPoweredBy .content-spacer {
+  font-size: 1rem;
+  margin-top: 40px; }
+
+.cb_template video.galleryVideoPlayer {
+  max-width: 100% !important; }
+.cb_template .gjGroupDownloadIcon {
+  color: #fff;
+  border: none; }
+.cb_template .streamItemActionResponse .streamItemEdit .card {
+  padding: 0; }
+  .cb_template .streamItemActionResponse .streamItemEdit .card .activityContainerFooter {
+    margin: 0; }
+.cb_template .btn-primary {
+  border: none; }
+.cb_template .galleryFolderHeader img,
+.cb_template .galleryModalHeaderAvatar img {
+  border-radius: 100%; }
+.cb_template .cb_offline span.fa-circle-o::before {
+  content: "\f111"; }
+.cb_template .gjTabHeader,
+.cb_template .pbBlogHeader,
+.cb_template .lastViewsHeader,
+.cb_template .invitesHeader,
+.cb_template .galleryHeader,
+.cb_template .blogsHeader,
+.cb_template .articlesHeader {
+  margin-bottom: 2rem !important; }
+  .cb_template .gjTabHeader .input-group,
+  .cb_template .pbBlogHeader .input-group,
+  .cb_template .lastViewsHeader .input-group,
+  .cb_template .invitesHeader .input-group,
+  .cb_template .galleryHeader .input-group,
+  .cb_template .blogsHeader .input-group,
+  .cb_template .articlesHeader .input-group {
+    justify-content: flex-end; }
+.cb_template .articleForm .table th, .cb_template .articleForm .table td {
+  font-weight: bold; }
+.cb_template .table > thead > tr > th a:not(.btn-primary):not(.gjGroupDownloadIcon),
+.cb_template .table > thead > tr > td a:not(.btn-primary):not(.gjGroupDownloadIcon),
+.cb_template .table > tbody > tr > th a:not(.btn-primary):not(.gjGroupDownloadIcon),
+.cb_template .table > tbody > tr > td a:not(.btn-primary):not(.gjGroupDownloadIcon),
+.cb_template .table > tfoot > tr > th a:not(.btn-primary):not(.gjGroupDownloadIcon),
+.cb_template .table > tfoot > tr > td a:not(.btn-primary):not(.gjGroupDownloadIcon) {
+  color: #d92351; }
+
+.cbLoginForm .control-group {
+  margin: 0 0 20px; }
+.cbLoginForm input[type="text"], .cbLoginForm input[type="password"] {
+  width: 100%; }
+
+.cbLogoutForm .login-avatar p {
+  margin-bottom: 1.2rem; }
+.cbLogoutForm .login-avatar img {
+  border-radius: 100%; }
+
+.cb_template .border-info {
+  border-color: #2cc1ea !important; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutPhoto .cbImgPict, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbCanvasLayoutPhoto .cbImgPict {
+    min-height: 150px;
+    min-width: 150px; }
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row {
+    margin: 0; }
+
+  .sunfw-com-comprofiler .sunfw-pos-left {
+    margin-bottom: 2rem !important; }
+
+  .sunfw-com-comprofiler .sunfw-pos-right {
+    margin-top: 2rem !important; }
+
+  .cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel):not(.commentsButtonNewCancel) {
+    padding: 10px 25px; }
+
+  .cb_template input[type="text"]:not(.streamInputLinkURL):not(.streamInput), .cb_template input.form-control:not(.streamInputLinkURL):not(.streamInput) {
+    width: auto; } }
+@media (max-width: 767px) {
+  .cb_template input[type="text"]:not(.streamInputLinkURL):not(.streamInput), .cb_template input.form-control:not(.streamInputLinkURL):not(.streamInput) {
+    width: auto; }
+
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbPosCanvasPhoto, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row .cbPosCanvasPhoto {
+    position: static !important; }
+
+  .select2-container.streamEmoteOptions .select2-results__option {
+    max-width: 50%;
+    flex: 0 0 50%; }
+
+  .cbLoginForm .userdata .checkbox label:first-child {
+    padding-right: 20px;
+    padding-left: 0; }
+
+  .table-responsive.articlesContainer .d-none {
+    display: table-cell !important; }
+
+  .cb_template .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom .cbCanvasLayoutPhoto .cbImgPict {
+    object-fit: fill;
+    min-height: auto !important; }
+
+  .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row {
+    margin: 0 5px; }
+    .cbGroupJive .gjCategory .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row .text-large, .cbGroupJive .gjGroup .cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom.row [class*="col-"]:last-child > .row .text-large {
+      font-size: 19px;
+      font-weight: normal; }
+
+  .cb_template .activityStream .card:not(.activityContainerNew) .streamItemScroll {
+    width: 100%; }
+
+  .cb_template .cbProfileBook .card:not(.activityContainerNew) .streamItemScroll, .cb_template .activityStream .card:not(.activityContainerNew) .streamItemScroll > .streamItemScrollContent > div {
+    flex-direction: column; }
+    .cb_template .cbProfileBook .card:not(.activityContainerNew) .streamItemScroll > *, .cb_template .activityStream .card:not(.activityContainerNew) .streamItemScroll > .streamItemScrollContent > div > * {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 100%;
+      width: 100%; }
+
+  .cb_template .activityStream .activityContainerInsertInner .border.cbCanvasLayout .cbCanvasLayoutTop + .cbCanvasLayoutBottom > [class*="col-"] {
+    max-width: 100%;
+    flex: 0 0 100%; }
+
+  .table-responsive > .table > tbody > tr > td.text-wrap {
+    white-space: pre-wrap; }
+
+  .cb_template .activityStream .activityContainerFooterRowButtons button.btn.activityButton.activityButtonNewCancel,
+  .cb_template button.btn[type="button"][class*="ButtonNew"]:not(.activityButtonNewCancel) {
+    margin: 5px 0; }
+
+  .table-responsive {
+    border-radius: 15px; }
+
+  .cbGroupJive .gjGroup .gjGroupEvents .gjGroupEventsRows .gjGroupEventContainer {
+    padding: 0; }
+
+  .mce-listbox button {
+    max-width: 105px; }
+
+  .combodate select.form-control {
+    margin-bottom: 10px; }
+
+  .cb_template .btn-sm-block.cbTooltip {
+    width: auto; }
+
+  .cb_template .navbar-toggler {
+    border: none;
+    outline: none; }
+
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse ul li .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; }
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse ul li[aria-expanded="false"] .nav-link:after {
+    border-left: 0.3em solid;
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent; }
+  .cb_template.cbProfile .cbCanvasLayoutMenu div.navbar-collapse ul li[aria-expanded="true"] .nav-link:after {
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent; }
+
+  .cb_template.cbProfile .cbCanvasLayout > .cbCanvasLayoutBottom > [class*="col-"]:last-child {
+    margin: 0; } }
+
+/*# sourceMappingURL=style.css.map */

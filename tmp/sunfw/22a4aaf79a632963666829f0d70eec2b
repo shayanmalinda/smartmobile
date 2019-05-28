@@ -1,0 +1,33 @@
+{
+  "developer": [
+    {
+      "id": "kidzone",
+      "name": "JSN KidZone",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_kidzone/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_kidzone/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_kidzone_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "individual": [
+    {
+      "id": "kidzone",
+      "name": "JSN KidZone",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_kidzone/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_kidzone/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_kidzone_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ],
+  "free": [
+    {
+      "id": "kidzone",
+      "name": "JSN KidZone",
+      "thumbnail": "http://demo.joomlashine.com/media/joomla-templates/jsn_kidzone/thumbnail.jpg",
+      "demo": "http://demo.joomlashine.com/joomla-templates/jsn_kidzone/pro/index.php",
+      "download": "https://joomlashine.com/files/downloads/sample-data/jsn_kidzone_pro_sample_data_j3x.zip",
+      "tags": []
+    }
+  ]
+}
+

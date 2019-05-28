@@ -1,0 +1,657 @@
+.sunfw-com-kunena .sunfw-layout-default #system-message div.alert {
+  color: #2cc1ea;
+  border-color: #2cc1ea; }
+.sunfw-com-kunena .datepicker {
+  margin: 0;
+  padding: 0; }
+  .sunfw-com-kunena .datepicker .datepicker-days table tr td, .sunfw-com-kunena .datepicker .datepicker-days table tr th {
+    border-bottom: 2px solid #ececec;
+    padding: 10px; }
+
+#kunena.layout .form-control {
+  height: 50px; }
+#kunena.layout form#kuserform .tabs select[id*='params'] {
+  height: 50px;
+  border: 2px solid #ececec;
+  border-radius: 15px; }
+#kunena.layout form#kuserform .tabs span[class*='icon'] {
+  margin-right: 5px; }
+#kunena.layout form#adminForm {
+  padding-top: 40px !important;
+  margin-bottom: 30px; }
+  #kunena.layout form#adminForm input[name='kcheckgo'] + a {
+    margin: 0;
+    color: #FFFFFF; }
+#kunena.layout #kchecktask {
+  height: 50px;
+  border-width: 2px;
+  border-radius: 15px 0 0 15px; }
+#kunena.layout input[type=checkbox] {
+  opacity: 1; }
+  #kunena.layout input[type=checkbox]:before {
+    border-color: #dbdbdb; }
+#kunena.layout .statistics table th, #kunena.layout .statistics table td {
+  border-left: none;
+  border-bottom: none; }
+  #kunena.layout .statistics table th:first-child, #kunena.layout .statistics table td:first-child {
+    display: none; }
+  #kunena.layout .statistics table th:last-child, #kunena.layout .statistics table td:last-child {
+    border-right: none; }
+#kunena.layout .statistics table tr td .progress {
+  margin-bottom: 0; }
+  #kunena.layout .statistics table tr td .progress .progress-bar {
+    border-radius: 12.5px; }
+#kunena.layout .statistics .well {
+  background-color: #FFFFFF; }
+#kunena.layout h1 {
+  font-size: 28px;
+  margin: 30px 0; }
+#kunena.layout h3 {
+  font-size: 22px; }
+#kunena.layout .tabs ul.nav.nav-tabs {
+  border-bottom: 2px solid #ececec;
+  margin-bottom: 30px; }
+  #kunena.layout .tabs ul.nav.nav-tabs li {
+    padding: 0;
+    margin-bottom: 0; }
+    #kunena.layout .tabs ul.nav.nav-tabs li a {
+      padding: 15px 20px;
+      color: #666666; }
+    #kunena.layout .tabs ul.nav.nav-tabs li.active a, #kunena.layout .tabs ul.nav.nav-tabs li:hover a {
+      border: 2px solid #ececec;
+      margin-bottom: -2px;
+      border-radius: 15px 15px 0 0;
+      border-bottom-color: #FFFFFF; }
+#kunena.layout .tabs .tab-content #posts .pull-left h1 {
+  margin-top: 0; }
+#kunena.layout .tabs .tab-content #attachments a[href='#modaldeleteall'] {
+  color: #333333; }
+  #kunena.layout .tabs .tab-content #attachments a[href='#modaldeleteall']:hover {
+    color: #FFFFFF; }
+#kunena.layout .tabs .tab-content #attachments form#adminForm table th, #kunena.layout .tabs .tab-content #attachments form#adminForm table td {
+  border-left: none; }
+  #kunena.layout .tabs .tab-content #attachments form#adminForm table th:last-child, #kunena.layout .tabs .tab-content #attachments form#adminForm table td:last-child {
+    border-right: none; }
+#kunena.layout h2.pull-right a.btn.hasTooltip {
+  border: 2px solid #ececec;
+  padding: 12.5px 40px;
+  box-shadow: none;
+  font-weight: normal; }
+  #kunena.layout h2.pull-right a.btn.hasTooltip span.glyphicon {
+    margin-right: 5px; }
+    #kunena.layout h2.pull-right a.btn.hasTooltip span.glyphicon:before {
+      content: '\f044';
+      font-family: fontAwesome; }
+#kunena.layout div.container .col-md-3.pull-right {
+  text-align: right; }
+  #kunena.layout div.container .col-md-3.pull-right a.btn {
+    color: #333333;
+    background: #FFFFFF;
+    padding: 14.5px 40px;
+    border: 2px solid #ececec; }
+#kunena.layout div.container .center.kwho-admin img.img-rounded {
+  border-radius: 50%; }
+#kunena.layout nav.navbar {
+  border: none;
+  border-radius: 15px;
+  padding: 0 20px;
+  min-height: auto;
+  margin-bottom: 30px; }
+  #kunena.layout nav.navbar div.navbar-inner {
+    position: relative; }
+    #kunena.layout nav.navbar div.navbar-inner li.dropdown.mobile-user {
+      margin-top: 0 !important; }
+    #kunena.layout nav.navbar div.navbar-inner .hidden-lg .nav.navbar-nav a.btn {
+      padding-left: 5px;
+      padding-right: 5px; }
+    #kunena.layout nav.navbar div.navbar-inner .klogout li.dropdown {
+      padding: 0; }
+      #kunena.layout nav.navbar div.navbar-inner .klogout li.dropdown span.glyphicon.glyphicon-user {
+        border: none;
+        box-shadow: none; }
+    #kunena.layout nav.navbar div.navbar-inner ul.nav.navbar-nav li {
+      margin-right: 40px;
+      padding: 0; }
+      #kunena.layout nav.navbar div.navbar-inner ul.nav.navbar-nav li a {
+        font-weight: bold;
+        padding: 25px 0; }
+      #kunena.layout nav.navbar div.navbar-inner ul.nav.navbar-nav li.active a, #kunena.layout nav.navbar div.navbar-inner ul.nav.navbar-nav li a:hover {
+        background: none; }
+    #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right {
+      position: absolute;
+      right: 0;
+      width: 150px;
+      text-align: right; }
+      #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown.mobile-user.open div.dropdown-backdrop {
+        display: none; }
+      #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle {
+        padding: 12px 0;
+        position: relative; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle img {
+          margin-top: 15px !important;
+          border-radius: 50%; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle span.login-text {
+          display: none; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle span.glyphicon::before {
+          content: "\f2bd ";
+          font-family: fontAwesome;
+          background-color: #FFFFFF;
+          color: #c4c4c4;
+          border-radius: 100%;
+          font-size: 35px; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle b.caret {
+          border: none; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown a.dropdown-toggle b.caret:before {
+            content: "\f107";
+            font-family: fontAwesome;
+            position: absolute;
+            top: 40%; }
+      #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu {
+        right: -20px;
+        left: auto;
+        border: 2px solid #ececec;
+        border-radius: 15px;
+        z-index: 5;
+        margin: 0;
+        padding: 20px;
+        min-width: 290px; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form.form-inline {
+          padding: 0; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form.form-inline > div.center {
+            text-align: left; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form#status-form {
+          padding: 0 30px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form#status-form label[for*="status"] {
+            padding: 5px 0; }
+            #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form#status-form label[for*="status"] a.btn {
+              padding: 0; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kmobile-form-login-submit p,
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kform-login-desktop-submit p {
+          margin-bottom: 30px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kmobile-form-login-submit p:last-child,
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kform-login-desktop-submit p:last-child {
+            margin-bottom: 0; }
+            #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kmobile-form-login-submit p:last-child a,
+            #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #kform-login-desktop-submit p:last-child a {
+              display: inline-block;
+              margin-bottom: 10px; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^='kform-'] span.add-on, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^=kmobile] span.add-on {
+          display: none; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^='kform-'] div.controls, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^=kmobile] div.controls {
+          margin-bottom: 15px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^='kform-'] div.controls input[type=text], #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^='kform-'] div.controls input[type=password], #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^=kmobile] div.controls input[type=text], #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div[id^=kmobile] div.controls input[type=password] {
+            margin-top: 10px;
+            width: 100%; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #statustext a.btn span.glyphicon:before {
+          content: '\f040';
+          font-family: fontAwesome;
+          color: #27a600; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #announcement, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #settings, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #allread, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #statustext {
+          padding: 10px 30px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #announcement a.btn, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #settings a.btn, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #allread a.btn, #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #statustext a.btn {
+            color: #666666;
+            padding: 0; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #announcement a.btn span.glyphicon:before {
+          content: '\f0a1';
+          font-family: fontAwesome; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu #allread a.btn span.glyphicon:before {
+          content: '\f00c';
+          font-family: fontAwesome; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form#logout-form {
+          padding: 10px 30px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu form#logout-form button.btn {
+            padding: 0; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu .divider {
+          height: 2px;
+          background-color: #ececec; }
+        #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div.center > a + p {
+          margin-top: 10px; }
+          #kunena.layout nav.navbar div.navbar-inner ul.nav.pull-right li.dropdown div.dropdown-menu div.center > a + p > a.label {
+            color: #FFFFFF; }
+#kunena.layout .breadcrumb {
+  display: none; }
+  #kunena.layout .breadcrumb + form:not(#jumpto) {
+    border: 2px solid #ececec;
+    padding: 0 40px 40px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) div.btn-toolbar.pull-right button.btn {
+      background: none;
+      padding-right: 0;
+      box-shadow: none; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) div.btn-toolbar.pull-right button.btn.collapsed span.glyphicon:before {
+        content: '\f107'; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) div.btn-toolbar.pull-right button.btn span.glyphicon {
+        color: #666666; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) div.btn-toolbar.pull-right button.btn span.glyphicon:before {
+          content: '\f106';
+          font-family: fontAwesome; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) h1 {
+      background-color: #f8f8f8;
+      padding: 20px;
+      margin: 0 -40px 40px; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) #search button[data-target="#search-options"] {
+      background: none;
+      box-shadow: none; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search button[data-target="#search-options"].collapsed span.glyphicon:before {
+        content: '\f107'; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search button[data-target="#search-options"] span.glyphicon {
+        color: #666666; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search button[data-target="#search-options"] span.glyphicon:before {
+          content: '\f106';
+          font-family: fontAwesome; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search button[data-target="#search-options"] + h2 {
+        background: #f8f8f8;
+        padding: 18px 21px;
+        border: 2px solid #ececec;
+        border-radius: 15px 15px 0 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+        margin-top: 40px; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options + div {
+      margin-top: 30px; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options + div button[type=reset] {
+        border: none;
+        padding-left: 40px;
+        padding-right: 40px; }
+        @media (max-width: 375px) {
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options + div button[type=reset] {
+            margin-top: 15px; } }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options + div button[type=reset]:hover {
+          background-color: #333333; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well {
+      display: flex;
+      flex-direction: column;
+      border-top: 0;
+      border-radius: 0 0 15px 15px;
+      padding: 40px; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row {
+        display: flex;
+        flex-direction: column; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 {
+          border: 2px solid #ececec;
+          border-radius: 15px;
+          padding: 20px 20px 30px 20px; }
+          @media (min-width: 768px) {
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 {
+              width: 50%; } }
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 #searchatdate, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 #searchatdate {
+            margin-bottom: 0; }
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 #searchatdate .date, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 #searchatdate .date {
+              position: relative; }
+              #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 #searchatdate .date span.input-group-addon, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 #searchatdate .date span.input-group-addon {
+                display: none; }
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 legend, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 legend {
+            float: left; }
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 .form-group, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 .form-group {
+            clear: both;
+            display: flex;
+            flex-direction: column; }
+            @media (min-width: 992px) {
+              #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 .form-group, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 .form-group {
+                width: 60%; } }
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .col-md-4 .form-group #date[name='searchdate'], #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 .form-group #date[name='searchdate'] {
+              margin-bottom: 20px; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 .col-md-6 {
+          padding: 0; }
+          @media (min-width: 992px) {
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row .ool-md-4 .col-md-6 {
+              width: 60%; } }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row > .col-md-6 {
+          border: 2px solid #ececec;
+          border-radius: 15px;
+          padding: 20px 20px 30px 20px; }
+          @media (min-width: 768px) {
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row > .col-md-6 {
+              width: 90%; } }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row fieldset.col-md-6 {
+          margin-top: 20px; }
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row fieldset.col-md-6 legend {
+            float: left; }
+            #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row fieldset.col-md-6 legend + select#categorylist {
+              margin-bottom: 10px;
+              overflow: hidden; }
+              @media (min-width: 768px) {
+                #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row fieldset.col-md-6 legend + select#categorylist {
+                  padding-top: 15px; } }
+              @media (min-width: 768px) {
+                #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .row fieldset.col-md-6 legend + select#categorylist {
+                  width: 50%; } }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .form-group select {
+        height: 50px;
+        border: 2px solid #ececec;
+        border-radius: 15px; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .form-group select#date, #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well .form-group select#sort {
+          margin-bottom: 20px; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well #searchatdate {
+        width: 100%; }
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well #searchatdate .input-group.date input[name='searchatdate'] {
+          border-radius: 15px; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well input[name=limitstart] {
+        height: 50px; }
+        @media (max-width: 992px) {
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well input[name=limitstart] {
+            margin-bottom: 15px; } }
+      @media (max-width: 992px) {
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options .well select#limit {
+          width: 100%; } }
+    #kunena.layout .breadcrumb + form:not(#jumpto) #search #search-options button[type=reset] {
+      font-family: Baloo; }
+    #kunena.layout .breadcrumb + form:not(#jumpto) #search .well {
+      background-color: #FFFFFF;
+      box-shadow: none;
+      border: 2px solid #ececec;
+      border-radius: 15px;
+      margin-bottom: 40px; }
+      @media (max-width: 992px) {
+        #kunena.layout .breadcrumb + form:not(#jumpto) #search .well fieldset.col-md-6 div.col-md-6 {
+          padding: 0; }
+          #kunena.layout .breadcrumb + form:not(#jumpto) #search .well fieldset.col-md-6 div.col-md-6 select#mode {
+            width: 100%; } }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search .well fieldset.col-md-6 .form-group input[type=text] {
+        height: 50px; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search .well fieldset.col-md-6 .form-group select#mode {
+        height: 50px;
+        border: 2px solid #ececec;
+        border-radius: 15px;
+        color: #666666; }
+      #kunena.layout .breadcrumb + form:not(#jumpto) #search .well fieldset.col-md-6 legend {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333333; }
+#kunena.layout span[class*="icon-"] {
+  font-family: 'Glyphicons Halflings'; }
+#kunena.layout div.row .col-md-12 {
+  margin-bottom: 15px; }
+  #kunena.layout div.row .col-md-12 .pull-left h1 {
+    margin-bottom: 0;
+    margin-top: 10px; }
+    #kunena.layout div.row .col-md-12 .pull-left h1 small {
+      font-size: 15px;
+      font-family: Quicksand;
+      color: #999999;
+      font-weight: 500;
+      margin-left: 5px; }
+  #kunena.layout div.row .col-md-12 #filter-time {
+    margin-top: 0; }
+    #kunena.layout div.row .col-md-12 #filter-time select.filter {
+      height: 50px;
+      margin: 0;
+      min-width: 250px;
+      border-width: 2px;
+      border-radius: 15px;
+      font-family: Quicksand;
+      font-weight: 500;
+      color: #666666; }
+#kunena.layout .kunena-topic-item h1 {
+  margin-bottom: 30px; }
+#kunena.layout .kunena-topic-item .topic-item-messages {
+  margin: 40px 0; }
+  #kunena.layout .kunena-topic-item .topic-item-messages + .pull-left {
+    margin-bottom: 20px; }
+  #kunena.layout .kunena-topic-item .topic-item-messages .profilebox li {
+    margin-bottom: 10px; }
+    #kunena.layout .kunena-topic-item .topic-item-messages .profilebox li:first-child {
+      margin-bottom: 10px; }
+    #kunena.layout .kunena-topic-item .topic-item-messages .profilebox li .topic-starter {
+      border: none;
+      margin-top: 15px; }
+    #kunena.layout .kunena-topic-item .topic-item-messages .profilebox li a.label.label-warning {
+      color: #FFFFFF; }
+  #kunena.layout .kunena-topic-item .topic-item-messages a#btn_report {
+    padding: 12.5px 25px;
+    background: #FFFFFF;
+    border: 2px solid #ececec;
+    box-shadow: none;
+    color: #333333; }
+#kunena.layout .kunena-topic-item .kmessagepadding {
+  padding-bottom: 30px; }
+  #kunena.layout .kunena-topic-item .kmessagepadding div.open.btn-group .dropdown-menu {
+    min-width: auto;
+    width: 100%;
+    border: 1px solid #ececec;
+    border-radius: 10px; }
+    #kunena.layout .kunena-topic-item .kmessagepadding div.open.btn-group .dropdown-menu li:empty {
+      display: none; }
+  #kunena.layout .kunena-topic-item .kmessagepadding button[data-toggle='dropdown'], #kunena.layout .kunena-topic-item .kmessagepadding a[data-toggle='modal'] {
+    padding: 12.5px 25px;
+    background: #FFFFFF;
+    border: 2px solid #ececec;
+    box-shadow: none;
+    color: #333333; }
+  #kunena.layout .kunena-topic-item .kmessagepadding button.dropdown-toggle {
+    margin-left: 0;
+    border-left: 0;
+    padding-left: 18px;
+    padding-right: 18px; }
+    #kunena.layout .kunena-topic-item .kmessagepadding button.dropdown-toggle span.caret {
+      border: none; }
+      #kunena.layout .kunena-topic-item .kmessagepadding button.dropdown-toggle span.caret:before {
+        content: '\f107';
+        font-family: fontAwesome;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+        right: 14px; }
+#kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group {
+  margin-right: 15px; }
+  #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a[data-toggle='dropdown'] {
+    padding: 12.5px 25px;
+    background: #FFFFFF;
+    border: 2px solid #ececec;
+    box-shadow: none;
+    color: #333333; }
+    #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a[data-toggle='dropdown'] span.glyphicon:before {
+      font-family: fontAwesome;
+      margin-right: 5px; }
+    #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a[data-toggle='dropdown'] span.glyphicon.glyphicon-pencil:before {
+      content: '\f044'; }
+    #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a[data-toggle='dropdown'] span.glyphicon.glyphicon-random:before {
+      content: '\f074'; }
+  #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a.dropdown-toggle {
+    margin-left: 0;
+    border-left: 0;
+    padding-left: 18px;
+    padding-right: 18px; }
+    #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a.dropdown-toggle span.caret {
+      border: none; }
+      #kunena.layout .kunena-topic-item #topic-actions-toolbar .btn-group a.dropdown-toggle span.caret:before {
+        content: '\f107';
+        font-family: fontAwesome;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+        right: 14px; }
+#kunena.layout ul.pagination li a {
+  border: 2px solid #ececec;
+  border-right: 0;
+  padding: 12.5px 20px;
+  color: #666666; }
+#kunena.layout ul.pagination li.active a {
+  background-color: #FFFFFF;
+  margin-left: 0;
+  font-weight: bold; }
+#kunena.layout ul.pagination li:first-child a {
+  border-radius: 15px 0 0 15px; }
+#kunena.layout ul.pagination li:last-child a {
+  border-right: 2px solid #ececec;
+  border-radius: 0 15px 15px 0; }
+#kunena.layout .search {
+  min-width: 250px; }
+  #kunena.layout .search input.form-control {
+    height: 50px;
+    border-radius: 15px;
+    width: 200px;
+    padding-left: 15px;
+    margin-left: 0; }
+  #kunena.layout .search button.btn {
+    width: 70px;
+    height: 50px;
+    right: -5px;
+    border-radius: 0 15px 15px 0;
+    background-color: #FFFFFF;
+    color: #666666;
+    border: 2px solid #ececec; }
+#kunena.layout form#ktopicsform table tr {
+  background: #FFFFFF; }
+#kunena.layout form#postform #kshow_attach_form {
+  background: none;
+  border: 2px solid #ececec;
+  color: #666666; }
+#kunena.layout form#postform .well {
+  background-color: #FFFFFF; }
+  #kunena.layout form#postform .well input[type='submit'], #kunena.layout form#postform .well button[type='reset'] {
+    background: #FFFFFF;
+    border: 2px solid #ececec;
+    color: #666666;
+    box-shadow: none; }
+    #kunena.layout form#postform .well input[type='submit']:hover, #kunena.layout form#postform .well button[type='reset']:hover {
+      color: #FFFFFF; }
+  #kunena.layout form#postform .well button[type='reset'] span.glyphicon {
+    display: none; }
+  #kunena.layout form#postform .well .control-group select#postcatid {
+    height: 50px;
+    border: 2px solid #ececec;
+    border-radius: 15px; }
+  #kunena.layout form#postform .well .form-group#kpost-subject .control-label + div input {
+    height: 50px; }
+  @media (min-width: 1024px) {
+    #kunena.layout form#postform .well .control-group, #kunena.layout form#postform .well .form-group {
+      margin-bottom: 15px;
+      display: flex; }
+      #kunena.layout form#postform .well .control-group .control-label, #kunena.layout form#postform .well .form-group .control-label {
+        text-align: left;
+        width: 15%; }
+        #kunena.layout form#postform .well .control-group .control-label + div, #kunena.layout form#postform .well .form-group .control-label + div {
+          width: 85%;
+          margin-left: 0;
+          padding-left: 0; } }
+  @media (max-width: 768px) {
+    #kunena.layout form#postform .well .control-group .control-label, #kunena.layout form#postform .well .form-group .control-label {
+      margin-bottom: 15px; } }
+#kunena.layout table {
+  margin: 30px 0;
+  border-radius: 15px;
+  border-collapse: separate;
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    #kunena.layout table.table-bordered {
+      border: 2px solid #ececec; } }
+  #kunena.layout table td:last-child {
+    border-right: none; }
+  #kunena.layout table tfoot a.btn {
+    background-color: #FFFFFF;
+    color: #333333;
+    border-radius: 25px;
+    border: 2px solid #ececec;
+    padding: 12.5px 40px;
+    box-shadow: none; }
+  #kunena.layout table tfoot input.btn, #kunena.layout table tfoot button[name=kcheckgo] {
+    padding: 12.5px 40px;
+    border-radius: 0 25px 25px 0;
+    background: #FFF;
+    color: #666666;
+    border: 2px solid #ececec; }
+  #kunena.layout table tfoot #kchecktask.kchecktask {
+    margin-right: 0;
+    margin-left: 10px;
+    border-right: 0; }
+#kunena.layout .kfrontend {
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0; }
+  #kunena.layout .kfrontend div#kwho .well, #kunena.layout .kfrontend div#kstats .well {
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #ececec;
+    padding-top: 25px; }
+    #kunena.layout .kfrontend div#kwho .well li.btn-link span.glyphicon, #kunena.layout .kfrontend div#kstats .well li.btn-link span.glyphicon {
+      margin-top: 0;
+      padding-left: 0;
+      padding-right: 0; }
+  #kunena.layout .kfrontend div#kstats .well li.btn-link {
+    text-align: left !important; }
+    #kunena.layout .kfrontend div#kstats .well li.btn-link span.glyphicon {
+      margin-top: 50%; }
+  #kunena.layout .kfrontend h1.btn-link {
+    margin-bottom: 0;
+    margin-top: 10px; }
+    #kunena.layout .kfrontend h1.btn-link small {
+      font-size: 15px;
+      color: #999999;
+      font-weight: 500;
+      margin-left: 5px; }
+  #kunena.layout .kfrontend h2.btn-link {
+    margin-bottom: 20px;
+    font-size: 28px; }
+  #kunena.layout .kfrontend table.table {
+    margin: 30px 0;
+    border-radius: 15px;
+    border-collapse: separate;
+    overflow: hidden; }
+    #kunena.layout .kfrontend table.table td {
+      padding: 25px 21px; }
+      #kunena.layout .kfrontend table.table td span.glyphicon.glyphicon-folder-open:before {
+        content: '\f07c';
+        font-family: fontAwesome;
+        font-size: 40px; }
+      #kunena.layout .kfrontend table.table td h3 {
+        font-size: 22px; }
+        #kunena.layout .kfrontend table.table td h3 small {
+          font-family: Quicksand;
+          font-size: 11px;
+          line-height: 2.09;
+          color: #999999;
+          font-weight: 500; }
+      #kunena.layout .kfrontend table.table td .header-desc {
+        line-height: 1.53; }
+    #kunena.layout .kfrontend table.table thead tr {
+      background-color: #FFFFFF; }
+    #kunena.layout .kfrontend table.table .well {
+      color: #666666;
+      border: none;
+      background: none;
+      box-shadow: none;
+      padding: 0; }
+#kunena.layout h1.alert {
+  margin: 0;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 25px; }
+  #kunena.layout h1.alert b {
+    text-transform: uppercase; }
+#kunena.layout form#categoryactions a.kbutton-create,
+#kunena.layout form#categoryactions a.kbutton-markread,
+#kunena.layout form#categoryactions a.kbutton-subscribe {
+  background: #FFFFFF;
+  border: 2px solid #ececec;
+  color: #333333;
+  font-family: Baloo;
+  font-weight: normal;
+  box-shadow: none; }
+  #kunena.layout form#categoryactions a.kbutton-create i.glyphicon,
+  #kunena.layout form#categoryactions a.kbutton-markread i.glyphicon,
+  #kunena.layout form#categoryactions a.kbutton-subscribe i.glyphicon {
+    margin-right: 5px; }
+    #kunena.layout form#categoryactions a.kbutton-create i.glyphicon:before,
+    #kunena.layout form#categoryactions a.kbutton-markread i.glyphicon:before,
+    #kunena.layout form#categoryactions a.kbutton-subscribe i.glyphicon:before {
+      font-family: fontAwesome; }
+#kunena.layout form#categoryactions a.kbutton-create i.glyphicon:before {
+  content: '\f044';
+  color: #333333 !important; }
+#kunena.layout form#categoryactions a.kbutton-markread i.glyphicon:before {
+  content: '\f0a0'; }
+#kunena.layout form#categoryactions a.kbutton-subscribe i.glyphicon:before {
+  content: '\f0e0'; }
+
+.fas {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,453 @@
+.sunfw-view-registration,
+.sunfw-view-profile {
+	form {
+		table {
+			tr {
+				@media(max-width:425px) {
+					display: block;
+				}
+			}
+			.componentheading {
+				display: none;
+			}
+			td,th {
+				padding: 0 0 20px;
+				@media(max-width: 425px) {
+					display: block;
+					input {
+						max-width: 95%;
+					}
+				}
+			}
+			td:first-child {
+				text-align: right;
+				padding-right: 10px;
+				@media(max-width: 425px) {
+					text-align: left;
+				}
+			}
+			.radio input[type="radio"] {
+				margin-right: 15px;
+			}
+		}
+		.k2AccountPageNotice {
+			margin-bottom: 20px;
+		}
+		.k2AccountPageUpdate {
+			button[type="submit"] {
+				border: none;
+				font-family: Baloo;
+				color: #FFFFFF;
+				padding: 15px 40px;
+				border-radius: 25px;
+			}
+		}
+	}
+}
+.k2AccountPage {
+	th.k2ProfileHeading {
+		background: #FFFFFF;
+		padding: 10px;
+	}
+	table.admintable {
+		tr:first-child + tr {
+			padding-top: 15px;
+		}
+		td.key, 
+		td.paramlist_key {
+			background: #FFFFFF;
+			border: none;
+			width: auto;
+			font-size: initial;
+		}
+	}
+	.icon-eye:before {
+		content: "\f06e";
+		font-family: fontAwesome;
+	}
+}
+.login-topbar {
+	ul span.icon-arrow-right::before {
+		display: none;
+	}
+}
+div.catItemHeader {
+	.catInformation {
+		display: flex;
+		align-content: center;
+		align-items: center;
+		font-size: 13px;
+		color: #999;
+		font-family: Quicksand;
+		font-weight: 500;
+		margin: 10px -15px 18px;
+		.catItemDateCreated {
+			font-size: 13px;
+			margin: 0 15px;
+			i {
+				margin-right: 5px;
+			}
+		}
+		a {
+			color: #999;
+		}
+		div.catItemCommentsLink {
+			border: none;
+			margin: 0;
+		}
+		div.catItemCommentsLink,
+		span.catItemAuthor {
+			margin: 0 15px;
+		}
+	}
+	h3.catItemTitle {
+		padding: 0;
+		margin: 0;
+		font-size: 32px;
+		font-weight: normal;
+	}
+}
+#k2Container {
+    padding: 0;
+}
+div.catItemView {
+	padding: 0 15px;
+	margin-bottom: 0;
+}
+div.k2Pagination {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	ul {
+		margin: 6px -15px 0;
+		li a {
+			padding: 0;
+			margin: 0 15px;
+			border: none;
+			color: #555555;
+		}
+	}
+}
+div.catItemBody {
+    padding: 0;
+}
+div.catItemCategory {
+	font-family: Baloo;
+	font-size: 15px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0 6px;
+}
+div.catItemIntroText {
+    padding: 0;
+    font-weight: 500;
+    color: #666;
+}
+#itemListLeading {
+	div.groupLeading {
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
+div.catItemBody {
+	.catItemIntroText {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+	div.catItemImageBlock {
+	padding: 0;
+    margin: -42px -42px 0;
+	}
+}
+#itemListPrimary {
+	margin: 0 -15px;	
+}
+#itemListLeading,
+#itemListPrimary{
+	div.catItemBody {
+		margin-bottom: 30px;
+		padding: 40px;
+		border: 2px solid #ececec;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+}
+.k2ItemsBlock {
+	ul {
+		li {
+			overflow: hidden;
+			&.flexItem {
+				display: flex;
+				.moduleItemHead {
+					flex-basis: 50%;
+				}
+			}
+			&.lastItem, &:last-child {
+				margin-bottom: 0;
+			}
+			a.moduleItemImage {
+				img {
+					width: 80px;
+					height: 80px;
+					float: left !important;
+					object-fit: cover;
+					border-radius: 10px;
+					margin: 0 15px 0 0 !important;
+				}
+			}
+			a.moduleItemTitle {
+				font-family: Baloo;
+				font-size: 18px;
+				line-height: 1.39;
+			}
+			p.createdDate {
+				span.moduleItemDateCreated {
+					font-size: 11px;
+					font-weight: 500;
+					color: #666666;
+				}
+			}
+		}
+	}
+	&.show-1st-type {
+		ul {
+			li:not(.clearList) {
+				display: flex;
+				flex-wrap: wrap;
+				font-family: Baloo;
+				font-size: 11px;
+				font-weight: normal;
+				text-transform: uppercase;
+				border: 2px solid #ececec;
+				border-radius: 15px;
+				padding: 20px;
+				overflow: visible;
+				.moduleItemCategory {
+					margin: 0 5px;
+				}
+				div.moduleItemIntrotext {
+					order: 0;
+					padding: 0;
+					margin: -22px -22px 20px;
+					width: calc(100% + 44px);
+					a.moduleItemImage img {
+						float: none;
+						width: 100%;
+						margin: 0;
+						border-radius: 15px 15px 0 0;
+						min-height: 170px;
+    					object-fit: cover;
+					}
+				}
+				.moduleItemTitle {
+					flex: 0 0 100%;
+					order: 2;
+					font-family: Baloo;
+					font-size: 18px;
+					font-weight: normal;
+					text-transform: none;
+					margin-top: 4px;
+				}
+			}
+		}
+	}
+}
+.k2CategoriesListBlock {
+	ul {
+		li {
+			margin-bottom: 10px !important;
+			a {
+				span.catCounter {
+					float: right;
+				}
+				span {
+					color: #666666;
+					font-weight: 500;
+					&.catCounter {
+						font-size: 11px;
+					}	
+				}
+			}
+			&:last-child {
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+}
+.k2Search.k2SearchBlock {
+	position: relative;
+	&::after {
+		content: "\f002";
+		font-family: fontAwesome;
+		font-size: 15px;
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		transform: translateY(-50%);
+		color: #999999;
+	}
+	form {
+		input.inputbox {
+			width: 100%;
+		}
+	}
+}
+.sunfw-view-item {
+	.layout-item.sunfw-item-page-content {
+		overflow: initial !important;
+	}
+	.k2RelateArticles {
+		.module-title {
+			.box-title {
+				text-align: center;
+				margin-top: 60px;
+				font-size: 28px;
+			}
+		}
+		.k2ItemsBlock {
+			.item {
+				border: 2px solid #ececec;
+				border-radius: 15px;
+				background-color: #FFFFFF;
+				padding: 30px 25px;
+				.moduleItemIntrotext {
+					margin: -32px -27px 20px;
+					img {
+						width: 100%;
+						height: 175px;
+						object-fit: cover;
+						border-radius: 15px 15px 0 0;
+					}
+				}
+				.moduleItemCategory {
+					text-transform: uppercase;
+					font-family: Baloo;
+					font-weight: normal;
+					font-size: 14px;
+				}
+				.title {
+					margin: 0;
+					font-size: 21px;
+				}
+				.moduleItemAuthor,
+				.moduleItemDateCreated {
+					font-size: 12px;
+					color: #999999;
+				}
+				.moduleItemAuthor {
+					margin-right: 30px;
+					a {
+						color: #999999;
+					}
+				}
+			}
+		}
+	}
+	#k2Container.itemView {
+		.itemBody {
+			padding: 0;
+			.itemImageBlock {
+				padding: 0;
+				margin: -42px -42px 30px;
+				img {
+					border-radius: 15px 15px 0 0;
+				}
+			}
+			.itemCategory {
+				a {
+					font-family: Baloo;
+					text-transform: uppercase;
+				}
+			}
+			.itemHeader {
+				margin-bottom: 20px;
+				.itemTitle {
+					font-size: 32px;
+					padding: 0;
+				}
+				.itemAuthor {
+					display: inline;
+					margin-right: 30px;
+					a {
+						color: #999999;
+					}
+				}
+				.itemAuthor,
+				.itemDateCreated {
+					font-size: 13px;
+					color: #999999;
+				}
+			}
+			.itemToolbar {
+				display: none;
+				a.itemPrintLink {
+					display: none;
+				}
+			}
+			.itemIntroText {
+				color: #666666;
+				line-height: 1.53;
+				font-size: 15px;
+				font-weight: 500;
+				padding: 0;
+				&:first-letter {
+					font-size: 36px;
+					font-weight: 500;
+					color: #fff;
+					text-align: center;
+					display: inline-block;
+					float: left;
+					height: 60px;
+					width: 60px;
+					line-height: 60px;
+					margin-right: 15px;
+					border-radius: 15px;
+					padding: 1px 22px;
+				}
+			}
+			.itemFullText {
+				ul {
+					li{
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
+.sunfw-view-itemlist {
+	.layout-item.sunfw-item-page-content {
+		#k2Container.userView {
+			.userBlock {
+				border: 2px solid #ececec;
+				border-radius: 15px;
+				margin-bottom: 30px;
+				background: #fbfbfb;
+			}
+			.userItemView {
+				border: 2px solid #ececec;
+				padding: 30px;
+				border-radius: 15px;
+			}
+			.userItemList .row > div:nth-child(2n+1){
+				clear: both;
+			}
+			.userItemImageBlock {
+				float: none;
+				.userItemImage {
+					margin: 0;
+					margin: -32px -32px 30px;
+					img {
+						width: 100%;
+						border-radius: 15px 15px 0 0;
+					}
+				}
+			}
+		}
+	}
+	.k2RelateArticles {
+		display: none;
+	}
+
+}
